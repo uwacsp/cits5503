@@ -27,30 +27,51 @@ The course consists of 12 weeks of lectures and 10 weeks of practical lab classe
 ## Lectures
 
 Week 1: Motivation for cloud computing, introduction to cloud computing (CloudComputingIntro, WhatIsTheCloud)
+
 Week 2: Introduction to AWS platform and services, awscli command line and python boto programming interfaces  (AWSIntro, Boto)
+
 Week 3: Computer virtualisation. Background and different approaches. Containers and Docker (Virtualisation)
+
 Week 4: AWS storage EBS, S3, DynamoDB (Storage)
+
 Week 5: AWS security and identity management (IAM)
+
 Week 6: Networking, IP addressing, subnets, routing virtual private clouds (Networking)
+
 Week 7: Web architectures using python django as a model with RDBMS (WebArchitecture)
+
 Week 8: Software controlled deployment of services and software using Chef (DevOps)
+
 Week 9: Machine learning using classification and categorisation services (AI)
+
 Week 10: More AI services including text analysis, image analysis, chatbots and data anaylsis using Jupyter and SageMaker (MoreAI)
+
 Week 11: Mobile application integration and services and IoT integration using cloud services (Mobile, IoT)
+
 Week 12: Recap and revision
 
 ## Labs
 
 Week 2:
+
 Week 3:
+
 Week 4:
+
 Week 5:
+
 Week 6: Midterm
+
 Week 7:
+
 Week 8:
+
 Week 9:
+
 Week 10:
+
 Week 11:
+
 Week 12: 
 
 
