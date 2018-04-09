@@ -46,9 +46,9 @@ Week 9: Machine learning using classification and categorisation services (AI)
 
 Week 10: More AI services including text analysis, image analysis, chatbots and data anaylsis using Jupyter and SageMaker (MoreAI)
 
-Week 11: Mobile application integration and services and IoT integration using cloud services (Mobile, IoT)
+Week 11: Mobile application integration and services and IoT integration using cloud services
 
-Week 12: Recap and revision
+Week 12: Internet of Things integration using Cloud Computing
 
 ## Labs
 
