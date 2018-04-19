@@ -52,17 +52,17 @@ Week 12: Internet of Things integration using Cloud Computing
 
 ## Labs
 
-Week 2:
+Week 2: Lab1 Intro and setup of environment
 
-Week 3:
+Week 3: Lab2 EC2 and docker
 
-Week 4:
+Week 4: Lab3 S3 and DynamoDB Creating CloudStorage application
 
-Week 5:
+Week 5: Lab4 IAM, KMS and AES encryption
 
 Week 6: Midterm
 
-Week 7:
+Week 7: Lab 5 Networks and VPC
 
 Week 8:
 
