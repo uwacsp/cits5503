@@ -64,19 +64,20 @@ Week 6: Midterm
 
 Week 7: Lab 5 Networks and VPC
 
-Week 8:
+Week 8: Lab 6 Web applications, Django and ELB
 
-Week 9:
+Week 9: Lab 7 DevOps
 
-Week 10:
+Week 10: Lab 8 Machine learning using classification and categorisation services
 
-Week 11:
+Week 11: Lab 9 More AI: Text analysis, image analysis, chatbots
 
-Week 12: 
-
-
+Week 12: Lab 10 Internet of Things
 
 
+## Assessment 
 
+20% Midterm Exam (Week 6)
+60% Final Exam
+20% Labs 
 
-Week 8: 
