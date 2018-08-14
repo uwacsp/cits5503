@@ -19,7 +19,7 @@ Note: Do this from your VirtualBox VM – if you do it from any other platform (
 ### [1] Create a security group
 
 ```
-aws ec2 create-security-group --group-name devenv-sg --description "security group for development environment"
+aws ec2 create-security-group --group-name <student number>-sg --description "security group for development environment"
 ```
 
 Note: this will use the default VPC (you will learn about this later in the course) – if you want to specify another VPC, you would use --vpc-id vpc-xxxxxxxx
@@ -29,25 +29,25 @@ Note the security group id that is created
 ### [2] Authorise inbound traffic for ssh
 
 ```
-aws ec2 authorize-security-group-ingress --group-name devenv-sg --protocol tcp --port 22 -- cidr 0.0.0.0/0
+aws ec2 authorize-security-group-ingress --group-name <student number>-sg --protocol tcp --port 22 -- cidr 0.0.0.0/0
 ```
 
 ### [3] Create a key pair that will allow you to ssh to the EC2 instance
  
 ```
-aws ec2 create-key-pair --key-name devenv-key --query 'KeyMaterial' --output text > devenv- key.pem
+aws ec2 create-key-pair --key-name <student number>-key --query 'KeyMaterial' --output text > <student number>-key.pem
 ```
 
 To use this key on Linux, copy the file to a directory ~/.ssh and change the permissions to:
 
 ```
-chmod 400 devenv-key.pem
+chmod 400 <student number>-key.pem
 ```
 
 ### [4] Create the instance and note the instance id
 
 ```
- aws ec2 run-instances --image-id ami-d38a4ab1 --security-group-ids sg-<from above> --count 1 --instance-type t2.micro --key-name devenv-key --query 'Instances[0].InstanceId'
+ aws ec2 run-instances --image-id ami-d38a4ab1 --security-group-ids <student number>-sg --count 1 --instance-type t2.micro --key-name <student number>-key --query 'Instances[0].InstanceId'
 
 // 18.04 ami-176aa375 
 ```
@@ -61,7 +61,7 @@ aws ec2 describe-instances --instance-ids i-<instance id from above> --query 'Re
 
 ### [6] Connect to the instance
 ```
-ssh -i devenv-key.pem ubuntu@<IP Address>
+ssh -i <student number>-key.pem ubuntu@<IP Address>
 ```
 ### [7] Look at the instance using the AWS console
 
