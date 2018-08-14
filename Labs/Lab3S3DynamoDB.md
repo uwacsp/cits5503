@@ -63,7 +63,7 @@ The attributes for the table will be:
             'fileName',
             'path',
             'lastUpdated',
-			'owner',
+	    'owner',
             'permissions'
             }
         )
