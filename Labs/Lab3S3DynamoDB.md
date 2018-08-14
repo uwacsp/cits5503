@@ -31,9 +31,10 @@ The aim of this lab is to write a program that will:
 
 ### [Step 1] Preparation
 
-Download the python code cloudstorage.py from https://github.com/dglance/cits5503/blob/master/Labs/src/cloudstorage.py
-Create a directory rootdir
-Create a file in rootdir called rootfile.txt and put some content in it “1\n2\n3\n4\n5\n”
+Download the python code cloudstorage.py from https://github.com/dglance/cits5503/blob/master/Labs/src/cloudstorage.py \
+Create a directory rootdir \
+Create a file in rootdir called rootfile.txt and put some content in it “1\n2\n3\n4\n5\n” 
+
 Create a second directory in rootdir called subdir and create another file subfile.txt with the same content as rootfile.txt
 
 ### [Step 2] Save to S3
