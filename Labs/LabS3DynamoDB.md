@@ -10,12 +10,12 @@ Version: 1.0 Date: 12/04/2018 Author: David Glance
 
 ## Technologies Covered
 
-Ubuntu
-AWS
-AWS S3
-AWS DynamoDB
-Python/Boto scripts
-VirtualBox
+* Ubuntu
+* AWS
+* AWS S3
+* AWS DynamoDB
+* Python/Boto scripts
+* VirtualBox
 
 Note: Do this from your VirtualBox VM – if you do it from any other platform (Windows, Mac – you will need to resolve any potential issues yourself)
 
