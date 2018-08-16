@@ -130,6 +130,14 @@ COPY ./html/ /usr/local/apache2/htdocs/
 docker build -t my-apache2 .
 ```
 
+If you run into permission errors, you may need add your user to the docker group:
+
+```
+sudo usermod -a -G docker <username>
+```
+
+Be sure to log out and log back in for this change to take effect.
+
 ### [6] Run the image
 
 ```
