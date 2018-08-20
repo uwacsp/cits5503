@@ -80,5 +80,5 @@ Check timestamps on files and only upload if the file has been updated.
 
 ## Submission
 
-Submit the python code files you wrote and take the quiz 
+Submit the python code files you wrote 
 
