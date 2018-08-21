@@ -16,7 +16,7 @@ import base64
 
 
 ROOT_DIR = '.'
-ROOT_S3_DIR = '<s3 bucket name>'
+ROOT_S3_DIR = 'STUDENTNUMBER-cloudstorage'
 
 
 s3 = boto3.resource("s3")
