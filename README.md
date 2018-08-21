@@ -40,6 +40,8 @@ Week 6: Networking, IP addressing, subnets, routing virtual private clouds (Netw
 
 Week 7: Web architectures using python django as a model with RDBMS (WebArchitecture)
 
+## Week 8: Mid Term Exam
+
 Week 8: Software controlled deployment of services and software using Chef (DevOps)
 
 Week 9: Machine learning using classification and categorisation services (AI)
@@ -60,19 +62,17 @@ Week 4: Lab3 S3 and DynamoDB Creating CloudStorage application
 
 Week 5: Lab4 IAM, KMS and AES encryption
 
-Week 6: Midterm
+Week 6: Lab 5 Networks and VPC
 
-Week 7: Lab 5 Networks and VPC
+Week 7: Lab 6 Web applications, Django and ELB
 
-Week 8: Lab 6 Web applications, Django and ELB
+Week 8: Lab 7 DevOps
 
-Week 9: Lab 7 DevOps
+Week 9: Lab 8 Machine learning using classification and categorisation services
 
-Week 10: Lab 8 Machine learning using classification and categorisation services
+Week 10: Lab 9 More AI: Text analysis, image analysis, chatbots
 
-Week 11: Lab 9 More AI: Text analysis, image analysis, chatbots
-
-Week 12: Lab 10 Internet of Things
+Week 11: Lab 10 Internet of Things
 
 
 ## Assessment 
