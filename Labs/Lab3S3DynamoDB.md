@@ -54,8 +54,25 @@ s3.meta.client.upload_file()
 Create a new program called restorefromcloud.py that reads the S3 bucket and writes the contents of the bucket within the appropriate directories. You should have a copy of the files and the directories you started with.
 
 ### [Step 4] Write information about files to DynamoDB
+Install DynamoDB on your VM.
 
-Create a table on DynamoDB with the key userId
+```
+mkdir dynamodb; 
+cd dynamodb
+```
+
+Install jre if not done
+
+```
+sudo apt-get install default-jre
+```
+
+```
+wget https://s3-ap-northeast-1.amazonaws.com/dynamodb-local-tokyo/dynamodb_local_latest.tar.gz
+java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar –sharedDb
+```
+
+Create a table on your local DynamoDB with the key userId
 The attributes for the table will be:
 
 ```
