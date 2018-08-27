@@ -38,13 +38,13 @@ changes (folders, username, etc) to the policy as necessary.
 { 
    "Version": "2012-10-17", 
    "Statement": {
-	   ”Sid": ”AllowAllS3ActionsInUserFolderForUserOnly", 
-        "Effect": ”DENY", 
+	   "Sid": "AllowAllS3ActionsInUserFolderForUserOnly", 
+        "Effect": "DENY", 
         "Action": “s3:*", 
         "Resource": " arn:aws:s3:::<studentnumber>/folder1/folder2/*",
-        ”Condition”: {
-            “StringNotLike”: {
-                “aws:username”: “nnnn@student.uwa.edu.au”
+        "Condition": {
+            “StringNotLike": {
+                “aws:username": “nnnn@student.uwa.edu.au"
              }
         } 
     } 
