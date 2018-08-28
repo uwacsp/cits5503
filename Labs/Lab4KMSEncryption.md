@@ -38,13 +38,13 @@ changes (folders, username, etc) to the policy as necessary.
 { 
    "Version": "2012-10-17", 
    "Statement": {
-	   ”Sid": ”AllowAllS3ActionsInUserFolderForUserOnly", 
-        "Effect": ”DENY", 
-        "Action": “s3:*", 
+	   "Sid": "AllowAllS3ActionsInUserFolderForUserOnly", 
+        "Effect": "DENY", 
+        "Action": "s3:*", 
         "Resource": " arn:aws:s3:::<studentnumber>/folder1/folder2/*",
-        ”Condition”: {
-            “StringNotLike”: {
-                “aws:username”: “nnnn@student.uwa.edu.au”
+        "Condition": {
+            "StringNotLike": {
+                "aws:username": "nnnn@student.uwa.edu.au"
              }
         } 
     } 
@@ -60,10 +60,87 @@ to that folder's contents.
 
 ## [Step 2] AES Encryption using KMS
 
-Write an application to create a KSM key (remember to use your student
-number to identify the key)
-Choose an appropriate alias for the key and make your username the
-administrator and user.
+Write an application to create a KSM key. Choose an appropriate alias for the key (your student
+number).
+ 
+Make your username the
+administrator and user. You can achieve this by modifying the following policy with your username and 
+attaching it to the key.
+
+```
+{
+  "Version": "2012-10-17",
+  "Id": "key-consolepolicy-3",
+  "Statement": [
+    {
+      "Sid": "Enable IAM User Permissions",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::032418238795:root"
+      },
+      "Action": "kms:*",
+      "Resource": "*"
+    },
+    {
+      "Sid": "Allow access for Key Administrators",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::032418238795:user/CITS5503/<your_username>"
+      },
+      "Action": [
+        "kms:Create*",
+        "kms:Describe*",
+        "kms:Enable*",
+        "kms:List*",
+        "kms:Put*",
+        "kms:Update*",
+        "kms:Revoke*",
+        "kms:Disable*",
+        "kms:Get*",
+        "kms:Delete*",
+        "kms:TagResource",
+        "kms:UntagResource",
+        "kms:ScheduleKeyDeletion",
+        "kms:CancelKeyDeletion"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "Allow use of the key",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::032418238795:user/CITS5503/<your_username>"
+      },
+      "Action": [
+        "kms:Encrypt",
+        "kms:Decrypt",
+        "kms:ReEncrypt*",
+        "kms:GenerateDataKey*",
+        "kms:DescribeKey"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "Allow attachment of persistent resources",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::032418238795:user/CITS5503/<your_username>"
+      },
+      "Action": [
+        "kms:CreateGrant",
+        "kms:ListGrants",
+        "kms:RevokeGrant"
+      ],
+      "Resource": "*",
+      "Condition": {
+        "Bool": {
+          "kms:GrantIsForAWSResource": "true"
+        }
+      }
+    }
+  ]
+}
+``` 
 
 In your CloudStorage application add the ability to encrypt and decrypt the files you find using the KMS Client apis of boto3. 
 
