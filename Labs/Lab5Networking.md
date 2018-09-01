@@ -82,18 +82,13 @@ lab.
 
 ### USE YOUR STUDENT NUMBER TO IDENTIFY ALL RESOURCES
 
+Objective: Write an application to create 2 EC2 instances in two availability zones, create an application load balancer and load balance HTTP requests to the 2 instances. 
+
+You will need to do some manual intervention to get Apache 2 installed and the index.html file edited. Do this after you have created the instances and ALB. In a future lab you will learn how this could be done through a program as well.
+
 [1] Write a Boto3 application to create 2 EC2 instances in two
 different availability zones of a specific region. Name the instances
 <student number>_zone
-
-On each instance, install apache2
-
-```
-sudo apt install apache2
-```
-
-Edit the /var/www/html/index.html file to report the instance name
-
 
 Note: You will need to use v2 of the ELB interface:
 
@@ -116,9 +111,19 @@ the instances - note the ARN that is output
 [d] Create a listener with a default rule Protocol: HTTP and Port 80
 forwarding on to the target group
 
-Verify that the load balancer is working by using the public IP
-address of the load balancer in a browser. You should be able to
+Try and access the EC2 instance using the public IP address of the load balancer in a browser. The load balancer will not be working at this point because Apache 2 is not installed. Check this and then:
+
+On each instance, install apache2
+
+```
+sudo apt install apache2
+```
+
+Edit the /var/www/html/index.html file to report the instance name
+
+Now Verify that the load balancer is working. You should be able to
 access both of the EC2 instances by refreshing the page.
+
 
 *IMPORTANT* When finished. Delete the Load balancer, target group,
 listener and EC2 instances.
