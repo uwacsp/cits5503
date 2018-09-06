@@ -5,8 +5,8 @@ Version: 1.0 Date: 12/04/2018 Author: David Glance
 ## Learning Objectives
 
 1.	Create a web app using Django
-2.	Implement nginx and a load balancer
-3.	Add a relational database using RDS
+2.	Implement nginx and load balance requests to it
+3.	Retrieve data from DynamoDB to display in the app
 
 ## Technologies Covered
 
@@ -137,7 +137,7 @@ NOTE remember to put the /polls/ on the end
 
 ### [Step 4] Adding the load balancer
 
-[1] Create an application load balancer – note that you will have to use two subnets for this – we are not going to load balance between the subnets so you can choose any other one in addition to the subnet with your instance in it.
+[1] Create an application load balancer as you did last week
 
 [2] Choose the security group – it must allow HTTP
 
@@ -150,7 +150,11 @@ Once you have created the ELB, you should see the health check fetch the /polls/
 You can now access the site using the url http://<load balancer dns name>/polls/
 
 
-[Step 5] Web interface for CloudStorage application
+### [Step 5] Web interface for CloudStorage application
+
+You will need to create a table and update the data in it as you did
+in the DynamoDB lab. This time however, you will use the AWS DynamoDB
+instance. 
 
 In views.py, add boto3 code to scan the DynamoDB table you created for your CloudStorage command line application. Display the results in the calling page. 
 
@@ -217,12 +221,12 @@ def index(request):
         context = {'items': response['Items'] }
 
         return HttpResponse(template.render(context, request))
-		```
+```
 		
 
 You can add variables to the template and more formatting to display the information correctly.
 
-Submission
+## Submission
 
 Submit the views.py file with the boto3 DynamoDB code added
 
