@@ -40,7 +40,7 @@ pip3 install django
 
 django-admin startproject lab
 cd lab
-django-admin startapp polls
+python3 manage.py startapp polls
 ```
 
 Stop and look at the files that have been created – the project files are to do with the running of the application. We will deal with the files as we go through.
