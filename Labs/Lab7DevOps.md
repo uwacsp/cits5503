@@ -73,7 +73,7 @@ Linux
 >>>
 ```
 
-## [4] Write a python script to automate the installation of apache2
+## [4] Write a python script to automate the installation of nginx
 
 Write a python script using fabric to set up and configure nginx as
 you did for the Django app last week
