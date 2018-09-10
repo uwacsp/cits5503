@@ -73,7 +73,7 @@ Linux
 >>>
 ```
 
-## [4] Write a python script to automate the installation of nginx
+### [Step 4] Write a python script to automate the installation of nginx
 
 Write a python script using fabric to set up and configure nginx as
 you did for the Django app last week
@@ -87,7 +87,7 @@ and/or
 
 run("Commands go here separated by ;")
 
-## [3] Update the python script to install your Django app
+## [Step 5] Update the python script to install your Django app
 
 Add the necessary commands to configure the virtual environment and
 clone your Django app from Github - this is basically taking the
