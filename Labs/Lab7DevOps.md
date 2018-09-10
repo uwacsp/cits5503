@@ -107,10 +107,11 @@ repository - we will be checking that there is a repository
 
 ### Marking Criteria
 
-Github repository set up correctly and utilised  1 mark
+Github repository set up correctly and utilised  1 mark 
 Fabric code sets up nginx correctly configured to run a Django App 2
-marks
+marks 
 Fabric code installs Django app from Github correctly and runs it
 correctly 2 marks
+
 
 
