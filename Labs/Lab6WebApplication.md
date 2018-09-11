@@ -34,6 +34,9 @@ The aim of this lab is to write a program that will:
 [2] Create a directory with a path /opt/wwc/mysites and cd into that.  Set up a virtual environment as you did in the first lab:
 
 ```
+sudo apt-get update
+sudo apt-get install python3-venv
+
 python3 -m venv virtualenv
 ```
 
