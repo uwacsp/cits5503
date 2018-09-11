@@ -37,6 +37,7 @@ The aim of this lab is to write a program that will:
 sudo apt-get update
 sudo apt-get install python3-venv
 
+'
 python3 -m venv virtualenv
 ```
 
@@ -138,7 +139,7 @@ now run
 python3 manage.py runserver 8000
 ```
 
-and check that you get Hello, world. when you type the url http://\<ip address\>/polls/
+and check that you get Hello, world. when you type the url http://\<ip address>/polls/
 
 NOTE remember to put the /polls/ on the end
 
