@@ -34,9 +34,13 @@ The aim of this lab is to write a program that will:
 [2] Create a directory with a path /opt/wwc/mysites and cd into that.  Set up a virtual environment as you did in the first lab:
 
 ```
-python3 -m venv virtualenv --without-pip
-apt install python3-pip
-pip3 install django
+python3 -m venv virtualenv
+```
+
+Activate your virtual environment and then:
+
+```
+pip install django
 
 django-admin startproject lab
 cd lab
