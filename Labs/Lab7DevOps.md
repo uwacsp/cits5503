@@ -83,7 +83,7 @@ run("Commands go here separated by ;")
 You will copy the files from your local directory to the new EC2 instance. You may find this easier if you create a tar/zip file first of the code and then untar/unzip on the EC2 machine.
 
 Add the necessary commands to configure the virtual environment and
-clone your Django app from Github - this is basically taking the
+clone your Django app from your local directory - this is basically taking the
 instructions you used in that lab and converting them to Fabric commands.
 
 The final command should be the command to run the server - if you add
