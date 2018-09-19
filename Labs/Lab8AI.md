@@ -1,6 +1,6 @@
-# Practical Worksheet 7
+# Practical Worksheet 8
 
-Version: 1.1 Date: 9/9/2018 Author: David Glance
+Version: 1.1 Date: 17/9/2018 Author: David Glance
 
 ## Learning Objectives
 
@@ -21,13 +21,21 @@ Fabric
 
 The aim of this lab is to write a program that will:
 
-[1] Understand how to use the basic commands for Github to create, update and retrieve source files from a repository 
-[2] Background and basics to Fabric
-[3] How to automatically deploy a server using Fabric
+[1] Understand how to process and prepare data for machine learning task
+[2] Train a model
+[3] Test the model on new data and get data on its performance
 
-## Git repository
 
-### [Step 1] Create a Git repository
+## Get Data
+
+### [Step 1] Download data files
+
+Historical data for products like bank term deposit
+
+https://s3.amazonaws.com/aml-sample-data/banking.csv
+
+Data to test whether people will get a term deposit
+
 
 Create a public repository on Github with the Django code you created in
 the previous lab
