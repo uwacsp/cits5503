@@ -1,13 +1,12 @@
 # Practical Worksheet 7
 
-Version: 1.1 Date: 9/9/2018 Author: David Glance
+Version: 1.2 Date: 15/9/2018 Author: David Glance
 
 ## Learning Objectives
 
 1.	Install and configure Fabric
-2.	Create a Git repository to hold Django code for an app
-3.	Deploy a server with nginx installed and configured by Fabric
-4. Deploy Django code using Fabric
+2.	Deploy a server with nginx installed and configured by Fabric
+3. 	Deploy Django code using Fabric
 
 ## Technologies Covered
 
@@ -20,24 +19,16 @@ Fabric
 ## Background
 
 The aim of this lab is to write a program that will:
+ 
+[1] Background and basics to Fabric
+[2] How to automatically deploy a server using Fabric
 
-[1] Understand how to use the basic commands for Github to create, update and retrieve source files from a repository 
-[2] Background and basics to Fabric
-[3] How to automatically deploy a server using Fabric
-
-## Git repository
-
-### [Step 1] Create a Git repository
-
-Create a public repository on Github with the Django code you created in
-the previous lab
-
-### [Step 2] Create an EC2 instance
+### [Step 1] Create an EC2 instance
 
 Use your existing code to create an EC2 instance that you will test
 your Fabric-based installation on.
 
-### [Step 3] Install and configure Fabric on your VM
+### [Step 2] Install and configure Fabric on your VM
 
 NOTE do this on your VirtualBox VM
 
@@ -73,7 +64,7 @@ Linux
 >>>
 ```
 
-### [Step 4] Write a python script to automate the installation of nginx
+### [Step 3] Write a python script to automate the installation of nginx
 
 Write a python script using fabric to set up and configure nginx as
 you did for the Django app last week
@@ -87,10 +78,12 @@ and/or
 
 run("Commands go here separated by ;")
 
-## [Step 5] Update the python script to install your Django app
+## [Step 4] Update the python script to install your Django app
+
+You will copy the files from your local directory to the new EC2 instance. You may find this easier if you create a tar/zip file first of the code and then untar/unzip on the EC2 machine.
 
 Add the necessary commands to configure the virtual environment and
-clone your Django app from Github - this is basically taking the
+clone your Django app from your local directory - this is basically taking the
 instructions you used in that lab and converting them to Fabric commands.
 
 The final command should be the command to run the server - if you add
@@ -102,16 +95,14 @@ The documentation for Fabric is here: http://docs.fabfile.org/en/2.0/
 
 ## Submission
 
-Submit the python file which should contain the link to the Github
-repository - we will be checking that there is a repository
+Submit the python file you wrote with the Fabric commands
 
 ### Marking Criteria
 
-Github repository set up correctly and utilised  1 mark  
 Fabric code sets up nginx correctly configured to run a Django App 2 
 marks  
 Fabric code installs Django app from Github correctly and runs it
-correctly 2 marks  
+correctly 3 marks  
 
 
 

@@ -29,7 +29,7 @@ The aim of this lab is to write a program that will:
 
 ### [Step 1] Create an EC2 instance
 
-[1] Create an EC2 micro instance using Ubuntu
+[1] Create an EC2 micro instance using Ubuntu and SSH into it.
 
 [2] Create a directory with a path /opt/wwc/mysites and cd into that.  Set up a virtual environment as you did in the first lab:
 
@@ -155,7 +155,7 @@ NOTE remember to put the /polls/ on the end
 
 Once you have created the ELB, you should see the health check fetch the /polls/ page every 30 seconds
 
-You can now access the site using the url http://<load balancer dns name>/polls/
+You can now access the site using the url http://\<load balancer dns name>/polls/
 
 
 ### [Step 5] Web interface for CloudStorage application
