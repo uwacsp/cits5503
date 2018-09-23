@@ -1,10 +1,12 @@
+import os
 from argparse import ArgumentParser, ArgumentError
+from contextlib import ExitStack
 
 import boto3
-import os
-import traceback
+from botocore.exceptions import ClientError
 
-def create_security_group(name, description):
+
+def create_security_group(name, description, **kwargs):
     """
     Create a security group
     :param name: Name of the security group
@@ -14,18 +16,22 @@ def create_security_group(name, description):
     sg = ec2.create_security_group(
         Description=description,
         GroupName=name,
+        **kwargs
     )
+
     # Add the cleanup for the security group when it's created
     def clean_security_group():
         print("Deleting Security Group %s (%s)..." % (sg.group_name, sg.id))
         sg.delete()
         print("Deleted.")
-    CLEANUP.append(clean_security_group)
+
+    CLEANUP.callback(clean_security_group)
     # Always print out the created resources so if the program doesn't clean up you can manually do so
     print("Created security group %s (%s)" % (sg.group_name, sg.id))
     return sg
 
-def create_instance(security_group, name, wait=True):
+
+def create_instance(security_group, name, wait=True, **kwargs):
     """
     Create an ec2 instance
     :param security_group: Security Group that the instance belongs to
@@ -34,14 +40,16 @@ def create_instance(security_group, name, wait=True):
     :return: The created Instance
     """
     inst = ec2.create_instances(
-        ImageId='ami-d38a4ab1', # Replace this with the image you want to use
+        ImageId='ami-d38a4ab1',  # Replace this with the image you want to use
         InstanceType='t2.micro',
         MaxCount=1,
         MinCount=1,
-        #Placement={'AvailabilityZone': zone}, # If you want to use a specific zone
+        # Placement={'AvailabilityZone': zone}, # If you want to use a specific zone
         SecurityGroupIds=[security_group.id],
         InstanceInitiatedShutdownBehavior='terminate',
+        **kwargs
     )[0]
+
     # Add the cleanup for the instance when it's created
     def clean_instance():
         print("Terminating Instance %s (%s)..." % (name, inst.id))
@@ -50,9 +58,10 @@ def create_instance(security_group, name, wait=True):
         if wait:
             inst.wait_until_terminated()
             print("Terminated")
-        # The performance could be improved by requesting termination of all instances at once
-        # Take a look in the main part of this program for how
-    CLEANUP.append(clean_instance)
+            # The performance could be improved by requesting termination of all instances at once
+            # Take a look in the main part of this program for how
+
+    CLEANUP.callback(clean_instance)
 
     # Label the instance
     inst.create_tags(Tags=[{'Key': 'Name', 'Value': name}])
@@ -65,7 +74,6 @@ def create_instance(security_group, name, wait=True):
     return inst
 
 
-
 if __name__ == '__main__':
     # Process args
     # This allows you to make your submission modular, this would be useful for labs like the cloudstorage lab
@@ -74,11 +82,13 @@ if __name__ == '__main__':
     args.add_argument("-sn", "--student-number", type=str,
                       help="Student Number (overrides the STUDENT_NUMBER env variable)")
 
+
     def integer_at_least_one(param: str) -> int:
         val = int(param)
         if val < 1:
             raise ArgumentError(param, "Number of instances should be at least 1")
         return val
+
 
     args.add_argument("-ni", "--num-instances", type=integer_at_least_one, default="5",
                       help="Number of instances [0, max_instances]")
@@ -100,10 +110,8 @@ if __name__ == '__main__':
     NUM_INSTANCES = args["num_instances"]
 
     # Clean up stack with deferred cleanup methods
-    CLEANUP = []
-
     # Main code is in a try so that cleanup can be done when something goes wrong
-    try:
+    with ExitStack() as CLEANUP:
         # Init
         ec2c = boto3.client('ec2')
         ec2 = boto3.resource('ec2')  # Try to use the higher level resource API wherever possible
@@ -118,12 +126,16 @@ if __name__ == '__main__':
 
         # Bulk wait for instances to terminate
         INSTANCES_CREATED = []
+
+
         def wait_for_all_instances_to_terminate():
-            print("Waiting for instances terminate...")
+            print("Waiting for instances to terminate...")
             for inst in INSTANCES_CREATED:
                 inst.wait_until_terminated()
             print("All instances terminated.")
-        CLEANUP.append(wait_for_all_instances_to_terminate)
+
+
+        CLEANUP.callback(wait_for_all_instances_to_terminate)
 
         # Create Instances
         for i in range(0, NUM_INSTANCES):
@@ -141,18 +153,7 @@ if __name__ == '__main__':
         # Make use of the running instances here...
 
         input("Press Enter when done to clean up...")
-    except:
-        traceback.print_exc()
-    finally:
+
         print("Cleaning Up...")
 
-        # This runs the cleanup functions in the reverse order they were added (stack order)
-        while len(CLEANUP) > 0:
-            try:
-                # Execute cleanup function
-                CLEANUP.pop()()
-            except:
-                traceback.print_exc()
-                print("An error occurred during clean-up. Resources will need to be manually released!")
-
-        print("Done!")
+    print("Done!")
