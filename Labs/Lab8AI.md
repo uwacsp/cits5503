@@ -19,9 +19,9 @@ Python
 
 The aim of this lab is to write a program that will:
 
-[1] The principles of the binary classifier using the AWS Machine Learning tutorial 
-[2] Understand how the classifier uses banking data to decide who is likely to open a deposit account
-[3] Understand how to interpret the predictive performance of the model and set score thresholds
+1. The principles of the binary classifier using the AWS Machine Learning tutorial 
+2. Understand how the classifier uses banking data to decide who is likely to open a deposit account
+3. Understand how to interpret the predictive performance of the model and set score thresholds
 
 Note that this is essentially the programmatic version of the
 demonstration shown online that made use of the AWS UI. It requires
