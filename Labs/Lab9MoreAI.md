@@ -197,6 +197,7 @@ Using the AWS CLI, create the intent using the following json file
     },
     "description": "Intent to order a bouquet of flowers for pick up"
 }
+
 ```
 
 using the following command
