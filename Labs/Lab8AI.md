@@ -93,12 +93,12 @@ NOTE do this on your VirtualBox VM
 
 Submit the python file you wrote.
 
-** REMEMBER** we check that you have actually created data sources and
+*REMEMBER* we check that you have actually created data sources and
    models - you will not be awarded any marks if you have not actually
    developed and run your code.
 
 
-** schema file **
+*schema file*
 
 ```
 {
