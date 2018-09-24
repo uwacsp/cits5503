@@ -4,27 +4,28 @@ Version: 1.1 Date: 17/9/2018 Author: David Glance
 
 ## Learning Objectives
 
-1.	Install and configure Fabric
-2.	Create a Git repository to hold Django code for an app
-3.	Deploy a server with nginx installed and configured by Fabric
-4. Deploy Django code using Fabric
+1.	Build out a binary classification model using Amazon Machine Learning
+2.	Explore parameters that affect the model’s training and evaluation process
 
 ## Technologies Covered
 
 Ubuntu
 AWS
+Amazon Machine Learning
+boto3
 Python
-Git
-Fabric
 
 ## Background
 
 The aim of this lab is to write a program that will:
 
-[1] Understand how to process and prepare data for machine learning task
-[2] Train a model
-[3] Test the model on new data and get data on its performance
+[1] The principles of the binary classifier using the AWS Machine Learning tutorial 
+[2] Understand how the classifier uses banking data to decide who is likely to open a deposit account
+[3] Understand how to interpret the predictive performance of the model and set score thresholds
 
+Note that this is essentially the programmatic version of the
+demonstration shown online that made use of the AWS UI. It requires
+you to understand what was happening at each step. 
 
 ## Get Data
 
@@ -36,90 +37,163 @@ https://s3.amazonaws.com/aml-sample-data/banking.csv
 
 Data to test whether people will get a term deposit
 
+https://s3.amazonaws.com/aml-sample-data/banking-batch.csv
 
-Create a public repository on Github with the Django code you created in
-the previous lab
+Put these files in your S3 bucket
 
-### [Step 2] Create an EC2 instance
+The explanation of the attributes in this data and how they are
+predictive is here:
 
-Use your existing code to create an EC2 instance that you will test
-your Fabric-based installation on.
+https://www2.1010data.com/documentationcenter/prod/Tutorials/MachineLearningExamples/BankMarketingDataSet.html
 
-### [Step 3] Install and configure Fabric on your VM
+
+## Write a python script to create a model 
+
+### [Step 2] Create a Data Source
+
+Use boto3's machine learning call 'create\_data\_source\_from_s3
+
+You will need to create two data sources - one that is used for
+training and the other that is used for testing. 
+
+Use defaults where you can. ComputeStatistics needs to be set to true.
+
+Use your student number to identify the data source
+
+Use the schema listed below
+
+### [Step 3] Create the model
+
+Use create\_ml\_model to create a machine learning model from the data
+source that you created for training
+
+Use BINARY as the category of supervised model.
+
+Use your student number to identify the ml model
+
+### [Step 4] Evaluate the model
+
+use create\_evaluation to evaluate the model using the data source you
+created for evaluation.
+
+
+### [Step 5] Get the details of the Performance Metrics from the evaluation
+
+use get\_evaluation to get data about the evaluation including the
+Performance Metrics from your evaluation.
+
+### [Step 6] Optional: Set the cutoff of the model to 3% and test the banking-batch.csv file
+
+
 
 NOTE do this on your VirtualBox VM
 
-The easiest way to install fabric is to:
-
-```
-pip install fabric
-```
-
-You will need to create a config file in ~/.ssh with the contents:
-
-```
-Home <ec2instance>
-	Hostname <EC2 instance public DNS>
-	User ubuntu
-	UserKnownHostsFile /dev/null
-	StrictHostKeyChecking no
-	PasswordAuthentication no
-	IdentityFile <path to your private key>
-```
-	
-You can test fabric from the command line:
-
-Remember to rplace <ec2instance> with your EC2 name you used in the
-configuration - use your student number to identify resources.
-
-```
-python
->>> from fabric import Connection
->>> c = Connection(‘<ec2instance>’)
->>> result = c.run(‘uname -s’)
-Linux
->>>
-```
-
-### [Step 4] Write a python script to automate the installation of nginx
-
-Write a python script using fabric to set up and configure nginx as
-you did for the Django app last week
-
-This will consiste of doing the same commands you would do manually to
-configure nginx but using the commands:
-
-sudo("commands go here separated by ;")
-
-and/or
-
-run("Commands go here separated by ;")
-
-## [Step 5] Update the python script to install your Django app
-
-Add the necessary commands to configure the virtual environment and
-clone your Django app from Github - this is basically taking the
-instructions you used in that lab and converting them to Fabric commands.
-
-The final command should be the command to run the server - if you add
-an '&' at the end it will run the process in the background. Note -
-you would normally use Gunicorn to do this not manage.py runserver but
-we are keeping it simple.
-
-The documentation for Fabric is here: http://docs.fabfile.org/en/2.0/
 
 ## Submission
 
-Submit the python file which should contain the link to the Github
-repository - we will be checking that there is a repository
+Submit the python file you wrote.
 
-### Marking Criteria
-
-Github repository set up correctly and utilised  1 mark  
-Fabric code sets up nginx correctly configured to run a Django App 2 
-marks  
-Fabric code installs Django app from Github correctly and runs it
-correctly 2 marks  
+** REMEMBER** we check that you have actually created data sources and
+   models - you will not be awarded any marks if you have not actually
+   developed and run your code.
 
 
+** schema file **
 
+```
+{
+  "excludedAttributeNames": [], 
+  "version": "1.0", 
+  "dataFormat": "CSV", 
+  "rowId": null, 
+  "dataFileContainsHeader": true, 
+  "attributes": [
+    {
+      "attributeName": "age", 
+      "attributeType": "NUMERIC"
+    }, 
+    {
+      "attributeName": "job", 
+      "attributeType": "CATEGORICAL"
+    }, 
+    {
+      "attributeName": "marital", 
+      "attributeType": "CATEGORICAL"
+    }, 
+    {
+      "attributeName": "education", 
+      "attributeType": "CATEGORICAL"
+    }, 
+    {
+      "attributeName": "default", 
+      "attributeType": "CATEGORICAL"
+    }, 
+    {
+      "attributeName": "housing", 
+      "attributeType": "CATEGORICAL"
+    }, 
+    {
+      "attributeName": "loan", 
+      "attributeType": "CATEGORICAL"
+    }, 
+    {
+      "attributeName": "contact", 
+      "attributeType": "CATEGORICAL"
+    }, 
+    {
+      "attributeName": "month", 
+      "attributeType": "CATEGORICAL"
+    }, 
+    {
+      "attributeName": "day_of_week", 
+      "attributeType": "CATEGORICAL"
+    }, 
+    {
+      "attributeName": "duration", 
+      "attributeType": "NUMERIC"
+    }, 
+    {
+      "attributeName": "campaign", 
+      "attributeType": "NUMERIC"
+    }, 
+    {
+      "attributeName": "pdays", 
+      "attributeType": "NUMERIC"
+    }, 
+    {
+      "attributeName": "previous", 
+      "attributeType": "BINARY"
+    }, 
+    {
+      "attributeName": "poutcome", 
+      "attributeType": "CATEGORICAL"
+    }, 
+    {
+      "attributeName": "emp_var_rate", 
+      "attributeType": "NUMERIC"
+    }, 
+    {
+      "attributeName": "cons_price_idx", 
+      "attributeType": "NUMERIC"
+    }, 
+    {
+      "attributeName": "cons_conf_idx", 
+      "attributeType": "NUMERIC"
+    }, 
+    {
+      "attributeName": "euribor3m", 
+      "attributeType": "NUMERIC"
+    }, 
+    {
+      "attributeName": "nr_employed", 
+      "attributeType": "NUMERIC"
+    }, 
+    {
+      "attributeName": "y", 
+      "attributeType": "BINARY"
+    }
+  ], 
+  "targetAttributeName": "y"
+}
+
+```
