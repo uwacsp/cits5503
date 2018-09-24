@@ -68,7 +68,7 @@ Of course, if the location or date is left out, these should be prompted for as 
 > What did you see?
 ```
 
-[Step 2] Sentiment Analysis
+### [Step 2] Sentiment Analysis
 
 Using AWS Comprehend, allow the user to enter a comment on what they thought of the trip and detect the sentiment of the comment. Depending on the sentiment, reply with an appropriate response:
 
@@ -78,6 +78,11 @@ If the sentiment was neutral: “That sounds interesting”
 
 
 ## Create a Lex Chatbot
+
+
+Write two bash scripts.  
+The first will create the chatbot, the second will take input from the command line and use the commands to test the chat bot.
+
 
 ### [Step 3] Create a custom slot type
 
@@ -265,10 +270,11 @@ aws lex-models get-bot \
     --version-or-alias "\$LATEST"
 ```
 	
-### [Step 5] Test the bot
+### [Step 5] Get input to test the bot
+
+Write a shell script (or Python program) to interact with the chatbot. Get input from the command line to send using the commands listed below:
 
 
-You can now test the bot using the following commands:
 
 ```
 aws lex-runtime post-text \
@@ -276,36 +282,8 @@ aws lex-runtime post-text \
     --bot-name <Student Number>OrderFlowersBot \
     --bot-alias "\$LATEST" \
     --user-id UserOne \
-    --input-text "i would like to order flowers"
+    --input-text <INPUT>
 
-
-aws lex-runtime post-text \
-    --region region \
-    --bot-name <Student Number>OrderFlowersBot \
-    --bot-alias "\$LATEST" \
-    --user-id UserOne \
-    --input-text "roses"
-
-
-aws lex-runtime post-text  \
-    --region region \
-    --bot-name <Student Number>OrderFlowersBot \
-    --bot-alias "\$LATEST" \
-    --user-id UserOne \
-    --input-text "tuesday"
-
-aws lex-runtime post-text  \
-    --region region \
-    --bot-name <Student Number>OrderFlowersBot --bot-alias "\$LATEST" \
-    --user-id UserOne \
-    --input-text "10:00 a.m."
-
-aws lex-runtime post-text  \
-    --region region \
-    --bot-name <Student Number>OrderFlowersBot \
-    --bot-alias "\$LATEST" \
-    --user-id UserOne \
-    --input-text "yes"
 ```
 
 ### [Step 6] Make sure all resources are deleted when complete
@@ -313,7 +291,8 @@ aws lex-runtime post-text  \
 
 ## Submission
 
-Submit the python file you wrote in [2] and the shell script from [6]
+Submit the python file you wrote in [2] and the two shell scripts - one to create the chatbot and the other to interact with it.
+
 
 **REMEMBER**
 
