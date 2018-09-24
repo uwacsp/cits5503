@@ -13,7 +13,6 @@ Version: 1.2 Date: 15/9/2018 Author: David Glance
 Ubuntu
 AWS
 Python
-Git
 Fabric
 
 ## Background
@@ -101,7 +100,7 @@ Submit the python file you wrote with the Fabric commands
 
 Fabric code sets up nginx correctly configured to run a Django App 2 
 marks  
-Fabric code installs Django app from Github correctly and runs it
+Fabric code installs Django app from local directory correctly and runs it
 correctly 3 marks  
 
 
