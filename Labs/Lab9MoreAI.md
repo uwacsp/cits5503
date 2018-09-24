@@ -99,7 +99,7 @@ Using the AWS CLI, create a custom slot type using the following json file
     "name": "<Student Number>FlowerTypes",
     "description": "Types of flowers to pick up"
 }
-``
+```
 
 and the following command:
 
