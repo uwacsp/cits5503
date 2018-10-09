@@ -86,7 +86,11 @@ The first will create the chatbot, the second will take input from the command l
 
 ### [Step 3] Create a custom slot type
 
-Using the AWS CLI, create a custom slot type using the following json file
+Using the AWS CLI, create a custom slot type using the following json
+file
+
+Note: Student Number can't be used in making the names unique because
+the names need to haver non-numeral characters. Use your name instead.
 
 ```
 {
@@ -101,7 +105,7 @@ Using the AWS CLI, create a custom slot type using the following json file
             "value": "roses"
         }
     ],
-    "name": "<Student Number>FlowerTypes",
+    "name": "<Your Name>FlowerTypes",
     "description": "Types of flowers to pick up"
 }
 ```
@@ -111,7 +115,7 @@ and the following command:
 ```
 aws lex-models put-slot-type \
     --region region \
-    --name <Student Number>FlowerTypes \
+    --name <Your Name>FlowerTypes \
     --cli-input-json file://FlowerTypes.json
 ```
 	
@@ -130,7 +134,7 @@ Using the AWS CLI, create the intent using the following json file
             }
         ]
     },
-    "name": "<Student Number>OrderFlowers",
+    "name": "<Your Name>OrderFlowers",
     "rejectionStatement": {
         "messages": [
             {
@@ -210,7 +214,7 @@ using the following command
 ```
 aws lex-models put-intent \
    --region region \
-   --name <Student Number>OrderFlowers \
+   --name <Your Name>OrderFlowers \
    --cli-input-json file://OrderFlowers.json
 ```
    
@@ -226,7 +230,7 @@ Use the following json
             "intentName": "OrderFlowers"
         }
     ],
-    "name": "<Student Number>OrderFlowersBot",
+    "name": "<Your Name>OrderFlowersBot",
     "locale": "en-US",
     "abortStatement": {
         "messages": [
@@ -257,7 +261,7 @@ and the following command
 ```
 aws lex-models put-bot \
     --region region \
-    --name <Student Number>OrderFlowersBot \
+    --name <Your Name>OrderFlowersBot \
     --cli-input-json file://OrderFlowersBot.json
 ```
 	
@@ -266,7 +270,7 @@ This will take a little bit of time to create so use this command to see if it i
 ```
 aws lex-models get-bot \
     --region region \
-    --name <Student Number>OrderFlowersBot \
+    --name <Your Name>OrderFlowersBot \
     --version-or-alias "\$LATEST"
 ```
 	
@@ -279,7 +283,7 @@ Write a shell script (or Python program) to interact with the chatbot. Get input
 ```
 aws lex-runtime post-text \
     --region region \
-    --bot-name <Student Number>OrderFlowersBot \
+    --bot-name <Your Name>OrderFlowersBot \
     --bot-alias "\$LATEST" \
     --user-id UserOne \
     --input-text <INPUT>
