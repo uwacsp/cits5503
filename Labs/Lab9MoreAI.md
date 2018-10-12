@@ -70,7 +70,7 @@ Of course, if the location or date is left out, these should be prompted for as 
 
 ### [Step 2] Sentiment Analysis
 
-Using AWS Comprehend, allow the user to enter a comment on what they thought of the trip and detect the sentiment of the comment. Depending on the sentiment, reply with an appropriate response:
+Add to the program you wrote in Step [1] by using AWS Comprehend and allow the user to enter a comment on what they thought of the trip and detect the sentiment of the comment. Depending on the sentiment, reply with an appropriate response:
 
 If the sentiment was positive: “That sounds like you had a great time”
 If the sentiment was negative: “I am sorry to hear that”
@@ -295,7 +295,7 @@ aws lex-runtime post-text \
 
 ## Submission
 
-Submit the python file you wrote in [2] and the two shell scripts - one to create the chatbot and the other to interact with it.
+Submit the python file you wrote in steps [1] and [2] and the two shell scripts - one to create the chatbot and the other to interact with it.
 
 
 **REMEMBER**
