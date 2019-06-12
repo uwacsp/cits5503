@@ -54,7 +54,7 @@ Week 12: Internet of Things integration using Cloud Computing
 
 ## Labs
 
-Week 2: Lab1 Intro and setup of environment
+<img src="https://github.com/dglance/cits5503/blob/master/assets/lab.png" style="width:30px; height:30px;> Week 2: Lab1 Intro and setup of environment
 
 Week 3: Lab2 EC2 and docker
 
