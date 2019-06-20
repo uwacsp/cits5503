@@ -24,16 +24,16 @@ aws ec2 create-security-group --group-name <student number>-sg --description "se
 
 Note: this will use the default VPC (you will learn about this later in the course) – if you want to specify another VPC, you would use --vpc-id vpc-xxxxxxxx
 
-Note the security group id that is created 
+Note the security group id that is created
 
 ### [2] Authorise inbound traffic for ssh
 
 ```
-aws ec2 authorize-security-group-ingress --group-name <student number>-sg --protocol tcp --port 22 -- cidr 0.0.0.0/0
+aws ec2 authorize-security-group-ingress --group-name <student number>-sg --protocol tcp --port 22 --cidr 0.0.0.0/0
 ```
 
 ### [3] Create a key pair that will allow you to ssh to the EC2 instance
- 
+
 ```
 aws ec2 create-key-pair --key-name <student number>-key --query 'KeyMaterial' --output text > <student number>-key.pem
 ```
@@ -49,14 +49,19 @@ chmod 400 <student number>-key.pem
 ```
  aws ec2 run-instances --image-id ami-d38a4ab1 --security-group-ids <student number>-sg --count 1 --instance-type t2.micro --key-name <student number>-key --query 'Instances[0].InstanceId'
 
-// 18.04 ami-176aa375 
-```
+ ```
+ Optional: Add a tag to your Instance
+ ```
+  aws ec2 create-tags --resources i-??????? --tags Key=Name,Value=<student number>
+ ```
+
+// 18.04 ami-176aa375
+
 
 ### [5] Get the public IP address
 
 ```
 aws ec2 describe-instances --instance-ids i-<instance id from above> --query 'Reservations[0].Instances[0].PublicIpAddress'
-    sudo systemctl start docker sudo systemctl enable docker
 ```
 
 ### [6] Connect to the instance
@@ -65,7 +70,7 @@ ssh -i <student number>-key.pem ubuntu@<IP Address>
 ```
 ### [7] Look at the instance using the AWS console
 
-### [8] ****NOTE***** 
+### [8] ****NOTE*****
 
 Once you have finished, log onto the console and terminate the instance
 or
@@ -84,16 +89,15 @@ Optional: Create an EC2 instance using the console interface. Are there any diff
 ## Using Docker
 
 ### [1] Install Docker
-
 ```
-sudo apt install docker.io
+sudo apt install docker.io -y
 ```
 
 You may have to
 
 ```
 sudo systemctl start docker
-sudo systemctl enable docker 
+sudo systemctl enable docker
 ```
 
 ### [2] Check the version
@@ -109,11 +113,11 @@ Create a directory called html
 Edit a file index.html and add the following content
 
 ```
-  <html> 
+  <html>
     <head> </head>
     <body>
       <p>Hello World!</p>
-    </body> 
+    </body>
   </html>
 ```
 
@@ -157,7 +161,7 @@ docker ps -a
 To stop and remove the container
 
 ```
-docker stop my-app 
+docker stop my-app
 docker rm my-app
 ```
 

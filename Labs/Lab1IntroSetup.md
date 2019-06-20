@@ -47,22 +47,22 @@ NOTE: Treat the Access key ID and secret very carefully. If stolen, these detail
 
 https://www.virtualbox.org/wiki/Downloads
 
-### [2] Download Ubuntu 18.04.1 LTS iso 
+### [2] Download Ubuntu 18.04.2 LTS iso
 
-https://www.ubuntu.com/download/desktop (approximately 1.62GB)
+https://www.ubuntu.com/download/desktop (approximately 1.86GB)
 
 ### [3] Setup VM
 
-Follow the instructions here to set up the VM using the Ubuntu image – remember that when you create the virtual disk, you can put it on an external USB drive 
+Follow the instructions here to set up the VM using the Ubuntu image – remember that when you create the virtual disk, you can put it on an external USB drive
 
-https://medium.com/@tushar0618/install-ubuntu-16-04-lts-on-virtual-box-desktop-version- 30dc6f1958d0
+https://medium.com/@tushar0618/install-ubuntu-16-04-lts-on-virtual-box-desktop-version-30dc6f1958d0
 
 ## AWSCLI, Boto and Python 3.6
 
 ### [1] Install Python 3.6
 
 ```
-sudo add-apt-repository ppa:jonathonf/python-3.6 
+sudo add-apt-repository ppa:jonathonf/python-3.6
 sudo apt-get update
 sudo apt-get install python3.6
 ```
@@ -72,22 +72,23 @@ sudo apt-get install python3.6
 ```
 sudo add-apt-repository ppa:jonathonf/python-3.6 sudo apt-get update
 sudo apt-get install python3.6
-# Note: the following command is not necessary for those using Ubuntu 16.04 
+# Note: the following command is not necessary for those using Ubuntu 16.04
 
 sudo apt-get install python3-distutils
 cd ~
-python3.6 -m venv virtualenv --without-pip cd virtualenv/
+python3.6 -m venv virtualenv --without-pip
+cd virtualenv/
 source bin/activate
-sudo apt install curl
+sudo apt install curl -y
 curl https://bootstrap.pypa.io/get-pip.py | python3
 ```
 
-When you type python -V you will get 3.6
+When you type python -V you will get 3.6.x
 
 Remember that whenever you want to use this environment, you need to do a source bin/activate
 You can put this into your .bashrc file (search for how)
 
-### [3] Install awscli 
+### [3] Install awscli
 
 Instructions are here:
 
@@ -97,14 +98,27 @@ https://docs.aws.amazon.com/cli/latest/userguide/installing.html
 pip install awscli --upgrade
 ```
 
-if you have any issues, sometimes you also have to install it using pip3 [4] Configure aws using aws configure NOTE use your own credentials!
+if you have any issues, sometimes you also have to install it using pip3
+
+```
+  sudo apt install python3-pip -y
+  pip3 install awscli --upgrade
+```
+
+Alternatively instally with the command:
+
+```
+sudo snap install aws-cli --classic
+```
+
+[4] Configure aws using aws configure NOTE use your own credentials!
 
 https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html
 
 ```
 aws configure
 AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
-AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY 
+AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 Default region name [None]: ap-southeast-2
 Default output format [None]: json
 ```
@@ -143,26 +157,3 @@ This will create an un-tabulated response.
 ### [3] Put this code into a python file and tabulate the print to have 2 columns with Endpoint and RegionName
 
 ### [4] Spend some time looking at VirtualBox and especially the configuration for its CPU, RAM, Disk, Network
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
