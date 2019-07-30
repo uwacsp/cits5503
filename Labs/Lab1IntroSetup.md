@@ -140,7 +140,7 @@ NOTE Choice of editor on Ubuntu. My favourite editor is Emacs – Vi is already 
 ### [1] Test the aws environment by running:
 
 ```
-aws ec2 describe-regions –output table
+aws ec2 describe-regions --output table
 ```
 
 ### [2] Test the python environment
