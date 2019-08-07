@@ -149,7 +149,8 @@ aws ec2 describe-regions --output table
 python3
 >>> import boto3
 >>> ec2 = boto3.client(‘ec2’)
->>> response = ec2.describe_regions() >>> print(response)
+>>> response = ec2.describe_regions()
+>>> print(response)
 ```
 
 This will create an un-tabulated response.
