@@ -36,19 +36,19 @@ changes (folders, username, etc) to the policy as necessary.
 ```
 
 {
-   "Version": "2012-10-17",
-   "Statement": {
-	   "Sid": "AllowAllS3ActionsInUserFolderForUserOnly",
-        "Effect": "DENY",
-        "Principal": "*",
-        "Action": "s3:*",
-        "Resource": "arn:aws:s3:::<your_s3_bucket>/folder1/folder2/*",
-        "Condition": {
-            "StringNotLike": {
-                "aws:username":"<studentnumber>@student.uwa.edu.au"
-             }
-        }
+  "Version": "2012-10-17",
+  "Statement": {
+   "Sid": "AllowAllS3ActionsInUserFolderForUserOnly",
+    "Effect": "DENY",
+    "Principal": "*",
+    "Action": "s3:*",
+    "Resource": "arn:aws:s3:::<your_s3_bucket>/folder1/folder2/*",
+    "Condition": {
+      "StringNotLike": {
+          "aws:username":"<studentnumber>@student.uwa.edu.au"
+       }
     }
+  }
 }
 
 
