@@ -86,7 +86,7 @@ attaching it to the key.
       "Sid": "Allow access for Key Administrators",
       "Effect": "Allow",
       "Principal": {
-        "AWS": "arn:aws:iam::032418238795:user/CITS5503/<your_username>"
+        "AWS": "arn:aws:iam::032418238795:user/<your_username>"
       },
       "Action": [
         "kms:Create*",
@@ -110,7 +110,7 @@ attaching it to the key.
       "Sid": "Allow use of the key",
       "Effect": "Allow",
       "Principal": {
-        "AWS": "arn:aws:iam::032418238795:user/CITS5503/<your_username>"
+        "AWS": "arn:aws:iam::032418238795:user/<your_username>"
       },
       "Action": [
         "kms:Encrypt",
@@ -125,7 +125,7 @@ attaching it to the key.
       "Sid": "Allow attachment of persistent resources",
       "Effect": "Allow",
       "Principal": {
-        "AWS": "arn:aws:iam::032418238795:user/CITS5503/<your_username>"
+        "AWS": "arn:aws:iam::032418238795:user/<your_username>"
       },
       "Action": [
         "kms:CreateGrant",
