@@ -25,7 +25,7 @@ The aim of this lab is to write a program that will:
 
 1. Apply a policy to your bucket to allow only you as a user to access it
 2. Create a key in KMS and use it to encrypt files on the client before uploading to S3 and decrypt them after downloading from S3
-3. Implement AES using python and test the difference in performance between the KMS solution and the local one. 
+3. Implement AES using python and test the difference in performance between the KMS solution and the local one.
 
 ## [Step 1] Apply policy to restrict permissions on bucket
 
@@ -35,19 +35,20 @@ changes (folders, username, etc) to the policy as necessary.
 
 ```
 
-{ 
-   "Version": "2012-10-17", 
+{
+   "Version": "2012-10-17",
    "Statement": {
-	   "Sid": "AllowAllS3ActionsInUserFolderForUserOnly", 
-        "Effect": "DENY", 
-        "Action": "s3:*", 
-        "Resource": " arn:aws:s3:::<studentnumber>/folder1/folder2/*",
+	   "Sid": "AllowAllS3ActionsInUserFolderForUserOnly",
+        "Effect": "DENY",
+        "Principal": "*",
+        "Action": "s3:*",
+        "Resource": "arn:aws:s3:::<your_s3_bucket>/folder1/folder2/*",
         "Condition": {
             "StringNotLike": {
-                "aws:username": "nnnn@student.uwa.edu.au"
+                "aws:username":"<studentnumber>@student.uwa.edu.au"
              }
-        } 
-    } 
+        }
+    }
 }
 
 
@@ -55,16 +56,16 @@ changes (folders, username, etc) to the policy as necessary.
 
 You can test it by applying the policy to a single folder and using a
 username that is not your own. Confirm that you no longer have access
-to that folder's contents. 
+to that folder's contents.
 
 
 ## [Step 2] AES Encryption using KMS
 
 Write an application to create a KSM key. Choose an appropriate alias for the key (your student
 number).
- 
+
 Make your username the
-administrator and user. You can achieve this by modifying the following policy with your username and 
+administrator and user. You can achieve this by modifying the following policy with your username and
 attaching it to the key.
 
 ```
@@ -140,9 +141,9 @@ attaching it to the key.
     }
   ]
 }
-``` 
+```
 
-In your CloudStorage application add the ability to encrypt and decrypt the files you find using the KMS Client apis of boto3. 
+In your CloudStorage application add the ability to encrypt and decrypt the files you find using the KMS Client apis of boto3.
 
 **Optional**
 
@@ -160,5 +161,3 @@ What is the performance difference between using KMS and using the custom soluti
 ## Submission
 
 Submit the python code files you wrote
-
-
