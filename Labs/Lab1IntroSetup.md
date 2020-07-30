@@ -1,11 +1,13 @@
-# Practical Worksheet 1 Version: 1.1 Date: 6/08/2018 Author: David Glance
+# Practical Worksheet 1 Version: 1.2
+
+Date: 30/07/2020 Author: David Glance
 
 ## Learning Objectives
 
 1. Register for an AWS account and explore the user interface
 1. Obtain API keys and secret
-1. Install VirtualBox and an Ubuntu 18.04 VM
-1. On the Ubuntu 18.04 instance
+1. Install VirtualBox and an Ubuntu 20.04 LTS VM
+1. On the Ubuntu 20.04 LTS instance
 1. Install AWS CLI on VM
 1. Install a virtual environment with Python 3.6
 1. Configure the AWSCLI environment with API details and default region
@@ -47,7 +49,7 @@ NOTE: Treat the Access key ID and secret very carefully. If stolen, these detail
 
 https://www.virtualbox.org/wiki/Downloads
 
-### [2] Download Ubuntu 18.04.2 LTS iso
+### [2] Download Ubuntu 20.04 LTS iso
 
 https://www.ubuntu.com/download/desktop (approximately 1.86GB)
 
@@ -55,35 +57,36 @@ https://www.ubuntu.com/download/desktop (approximately 1.86GB)
 
 Follow the instructions here to set up the VM using the Ubuntu image – remember that when you create the virtual disk, you can put it on an external USB drive
 
-https://medium.com/@tushar0618/install-ubuntu-16-04-lts-on-virtual-box-desktop-version-30dc6f1958d0
+https://linuxhint.com/install_ubuntu_virtualbox_2004/
 
-## AWSCLI, Boto and Python 3.6
 
-### [1] Install Python 3.6
+## AWSCLI, Boto and Python 3.8.x
+
+### [1] Install Python 3.8.x
 
 ```
-sudo add-apt-repository ppa:jonathonf/python-3.6
+sudo add-apt-repository ppa:jonathonf/python-3.8.x
 sudo apt-get update
-sudo apt-get install python3.6
+sudo apt-get install python3.8.x
 ```
 
-### [2] Install a virtual environment with python3.6
+### [2] Install a virtual environment with python3.8.x
 
 ```
-sudo add-apt-repository ppa:jonathonf/python-3.6 sudo apt-get update
-sudo apt-get install python3.6
+sudo add-apt-repository ppa:jonathonf/python-3.8.x sudo apt-get update
+sudo apt-get install python3.8.x
 # Note: the following command is not necessary for those using Ubuntu 16.04
 
 sudo apt-get install python3-distutils
 cd ~
-python3.6 -m venv virtualenv --without-pip
+python3 -m venv virtualenv --without-pip
 cd virtualenv/
 source bin/activate
 sudo apt install curl -y
 curl https://bootstrap.pypa.io/get-pip.py | python3
 ```
 
-When you type python -V you will get 3.6.x
+When you type python -V you will get 3.8.x
 
 Remember that whenever you want to use this environment, you need to do a source bin/activate
 You can put this into your .bashrc file (search for how)
@@ -123,7 +126,7 @@ Default region name [None]: ap-southeast-2
 Default output format [None]: json
 ```
 
-NOTE if you have any issues with clipboard copy paste from your machine to the VM, you have to enable clipboard copying from the Devices menu of VirtualBox. You will need to run and install the VirtualBox Guest Additions first from the same menu (On 18.04 you need to install build tools first sudo apt install linux-headers-$(uname -r) build-essential dkms
+NOTE if you have any issues with clipboard copy paste from your machine to the VM, you have to enable clipboard copying from the Devices menu of VirtualBox. You will need to run and install the VirtualBox Guest Additions first from the same menu (On 20.04 you need to install build tools first sudo apt install linux-headers-$(uname -r) build-essential dkms
 )
 
 ### [5] Install boto3
