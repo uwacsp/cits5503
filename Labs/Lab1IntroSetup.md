@@ -41,7 +41,9 @@ You are able to create your own account using a credit card and utilise free res
 
 Click on your user account. Click Security Credentials tab: Create access key and make a note of the Access key ID and the secret access key – you will need these for programmatic access to resources.
 
-NOTE: Treat the Access key ID and secret very carefully. If stolen, these details allow someone to create large numbers of resources and do other things with the account
+<div class="alert alert-info" style="font-size:100%">
+<b>NOTE:</b> Treat the Access key ID and secret very carefully. If stolen, these details allow someone to create large numbers of resources and do other things with the account
+</div>
 
 ## Virtual Box and Ubuntu VM
 
@@ -105,7 +107,10 @@ Alternatively instally with the command:
 sudo snap install aws-cli --classic
 ```
 
-[4] Configure aws using aws configure NOTE use your own credentials!
+[4] Configure aws using aws configure
+<div class="alert alert-info" style="font-size:100%">
+<b>NOTE:</b> use your own credentials!
+</div>
 
 https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html
 
@@ -119,8 +124,10 @@ Default region name [None]: ap-southeast-2
 Default output format [None]: json
 ```
 
-NOTE if you have any issues with clipboard copy paste from your machine to the VM, you have to enable clipboard copying from the Devices menu of VirtualBox. You will need to run and install the VirtualBox Guest Additions first from the same menu (On 20.04 you need to install build tools first `sudo apt install linux-headers-$(uname -r) build-essential dkms -y`
+<div class="alert alert-info">
+<b>NOTE:</b> if you have any issues with clipboard copy paste from your machine to the VM, you have to enable clipboard copying from the Devices menu of VirtualBox (Settings > General > Advance > Shared Clipboard > Bidirectional). You will need to run and install the VirtualBox Guest Additions first from the same menu (On 20.04 you need to install build tools first `sudo apt install linux-headers-$(uname -r) build-essential dkms -y`
 )
+</div>
 
 ### [3] Install boto3
 
@@ -130,7 +137,9 @@ pip3 install boto3
 
 You are now set!!
 
-NOTE Choice of editor on Ubuntu. My favourite editor is Emacs – Vi is already installed – you have to install Vim or Emacs if you need it. You can also install other editors – just be careful of memory
+<div class="alert alert-info">
+<b>NOTE:</b> Choice of editor on Ubuntu. My favourite editor is Emacs – Vi is already installed – you have to install Vim or Emacs if you need it. You can also install other editors – just be careful of memory.
+</div>
 
 ## Exploring and testing the environment
 ### [1] Test the aws environment by running:
