@@ -41,7 +41,9 @@ You are able to create your own account using a credit card and utilise free res
 
 Click on your user account. Click Security Credentials tab: Create access key and make a note of the Access key ID and the secret access key – you will need these for programmatic access to resources.
 
-NOTE: Treat the Access key ID and secret very carefully. If stolen, these details allow someone to create large numbers of resources and do other things with the account
+<div class="alert alert-info" style="font-size:100%">
+<b>NOTE:</b> Treat the Access key ID and secret very carefully. If stolen, these details allow someone to create large numbers of resources and do other things with the account
+</div>
 
 ## Virtual Box and Ubuntu VM
 
@@ -59,53 +61,44 @@ Follow the instructions here to set up the VM using the Ubuntu image – remembe
 
 https://linuxhint.com/install_ubuntu_virtualbox_2004/
 
+OPTIONAL If want to run the virtualbox machine in full screen:
+
+https://askubuntu.com/questions/1230797/ubuntu-20-04-vm-always-resizes-screen-to-default-size-when-booting
+
 
 ## AWSCLI, Boto and Python 3.8.x
 
 ### [1] Install Python 3.8.x
 
-```
-sudo add-apt-repository ppa:jonathonf/python-3.8.x
-sudo apt-get update
-sudo apt-get install python3.8.x
-```
-
-### [2] Install a virtual environment with python3.8.x
+Ubuntu 20.04 already comes with Python 3.8.x but it is important to update the packages
+to obtain the latest version:
 
 ```
-sudo add-apt-repository ppa:jonathonf/python-3.8.x sudo apt-get update
-sudo apt-get install python3.8.x
-# Note: the following command is not necessary for those using Ubuntu 16.04
-
-sudo apt-get install python3-distutils
-cd ~
-python3 -m venv virtualenv --without-pip
-cd virtualenv/
-source bin/activate
-sudo apt install curl -y
-curl https://bootstrap.pypa.io/get-pip.py | python3
+sudo apt update
+sudo apt -y upgrade
 ```
 
-When you type python -V you will get 3.8.x
+To check the latest version:
+```
+python3 -V
+```
 
-Remember that whenever you want to use this environment, you need to do a source bin/activate
-You can put this into your .bashrc file (search for how)
+Now we need to install `pip3`, which is a tool that will allow us to install and manage python libraries.
+```
+sudo apt install -y python3-pip
+```
 
-### [3] Install awscli
+Python packages can be installed by typing: `pip3 install package_name`
+
+
+### [2] Install awscli
 
 Instructions are here:
 
 https://docs.aws.amazon.com/cli/latest/userguide/installing.html
 
 ```
-pip install awscli --upgrade
-```
-
-if you have any issues, sometimes you also have to install it using pip3
-
-```
-  sudo apt install python3-pip -y
-  pip3 install awscli --upgrade
+pip3 install awscli --upgrade
 ```
 
 Alternatively instally with the command:
@@ -114,10 +107,15 @@ Alternatively instally with the command:
 sudo snap install aws-cli --classic
 ```
 
-[4] Configure aws using aws configure NOTE use your own credentials!
+[4] Configure aws using aws configure
+<div class="alert alert-info" style="font-size:100%">
+<b>NOTE:</b> use your own credentials!
+</div>
 
 https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html
 
+
+Change the placeholder values by your AWS Access Key and AWS Secret Access Key.
 ```
 aws configure
 AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
@@ -126,10 +124,12 @@ Default region name [None]: ap-southeast-2
 Default output format [None]: json
 ```
 
-NOTE if you have any issues with clipboard copy paste from your machine to the VM, you have to enable clipboard copying from the Devices menu of VirtualBox. You will need to run and install the VirtualBox Guest Additions first from the same menu (On 20.04 you need to install build tools first sudo apt install linux-headers-$(uname -r) build-essential dkms
+<div class="alert alert-info">
+<b>NOTE:</b> if you have any issues with clipboard copy paste from your machine to the VM, you have to enable clipboard copying from the Devices menu of VirtualBox (Settings > General > Advance > Shared Clipboard > Bidirectional). You will need to run and install the VirtualBox Guest Additions first from the same menu (On 20.04 you need to install build tools first `sudo apt install linux-headers-$(uname -r) build-essential dkms -y`
 )
+</div>
 
-### [5] Install boto3
+### [3] Install boto3
 
 ```
 pip3 install boto3
@@ -137,7 +137,9 @@ pip3 install boto3
 
 You are now set!!
 
-NOTE Choice of editor on Ubuntu. My favourite editor is Emacs – Vi is already installed – you have to install Vim or Emacs if you need it. You can also install other editors – just be careful of memory
+<div class="alert alert-info">
+<b>NOTE:</b> Choice of editor on Ubuntu. My favourite editor is Emacs – Vi is already installed – you have to install Vim or Emacs if you need it. You can also install other editors – just be careful of memory.
+</div>
 
 ## Exploring and testing the environment
 ### [1] Test the aws environment by running:
@@ -151,7 +153,7 @@ aws ec2 describe-regions --output table
 ```
 python3
 >>> import boto3
->>> ec2 = boto3.client(‘ec2’)
+>>> ec2 = boto3.client('ec2')
 >>> response = ec2.describe_regions()
 >>> print(response)
 ```
