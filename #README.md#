@@ -1,4 +1,4 @@
-# CITS5503 Cloud Computing
+ CITS5503 Cloud Computing
 
 This unit introduces cloud computing as the provision of computing resources. Students are exposed to modern systems architectures and software development kits that, together, provide cloud computing frameworks. Students will learn about different aspects of the design, development, provisioning and management of cloud-based applications.
 
@@ -22,7 +22,7 @@ Students are able to
 6.  Use cloud services to carry out specific use cases such as data analytics, machine learning and other artificial intelligence tasks
 7.  Write code in Python using a variety of SDKs to achieve the above where appropriate
 
-The course consists of 12 weeks of lectures and 10 weeks of practical lab classes. Assessment is through a mid-term exam and a final exam.
+The course consists of 12 weeks of lectures and 10 weeks of practical lab classes. Assessment is through marking of lab assignments, a mid-term exam and a final exam.
 
 
 [Reading List](https://github.com/uwacsp/cits5503/blob/master/readings.md)
