@@ -46,7 +46,7 @@ Insert boto commands to save each file that is found as the program traverses th
 NOTE the easiest way to upload files is to use the command: 
 
 ```
-s3.meta.client.upload_file()
+s3.upload_file()
 ```
 
 ### [Step 3] Restore from S3
