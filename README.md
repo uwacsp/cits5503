@@ -44,21 +44,37 @@ Week 3: Computer virtualisation. Background and different approaches. Containers
 
 [Assignments for week 3 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
 
+[2019 Video Capture Lecture](https://youtu.be/uCcyk30FZT4)
+
 Week 4: AWS storage EBS, S3, DynamoDB ([Storage](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503LectureStorage.pptx), [S3 Video](https://youtu.be/ob6x5ZotyWk), [DynamoDB Video](https://youtu.be/mhNU38b96Oc "Dynamo DB"))
+
+[2019 Video Capture Lecture](https://youtu.be/9Ff02Kmt5mw)
 
 Week 5: AWS security and identity management ([IAM](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503LectureIAM.pptx), [Video](https://youtu.be/3prrCQxlJoQ))
 
+[2019 Video Capture Lecture](https://youtu.be/kvpVZq56hB4)
+
 Week 6: Networking, IP addressing, subnets, routing virtual private clouds ([Networking](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503Networking.pptx), [Networking Video](https://youtu.be/FeIzLjkRi28), [NAT](https://youtu.be/fpHifzYGosA), [ELB](https://youtu.be/h5rhWRbuI74))
+
+
 
 ## Week 7: Mid Term Exam
 
 Week 8: Web architectures using python as a model with RDBMS ([WebArchitecture](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503WebArchitecture.pptx) (pptx)[Web Architecture Video](https://youtu.be/hl9QZS-ovn4), [Django Demo](https://youtu.be/wQZYSURos-s), [SQS Video](https://youtu.be/jVF3JAUMaw0)
 
+[2019 Video Capture Lecture](https://youtu.be/z_lR-4w2K88)
+
 Week 9: Software controlled deployment of services and software using Chef ([DevOps](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503DevOps.pptx) (pptx), [OpsWorks Chef Video](https://youtu.be/ZyTQc2xDRv4), [DevOps Intro Fabric](https://youtu.be/iuOBJr2Rdkg), [Code Build Video](https://youtu.be/doW1ZjnMNfQ))
+
+[2019 Video Capture Lecture](https://youtu.be/P6JUMUGNooU)
 
 Week 10: Machine learning using classification and categorisation services ([AI](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503AI.pptx) (pptx), [AI Video](https://youtu.be/tHyPwdB5ghI), [ML Demo Video](https://youtu.be/Q5YHt_FieeQ))
 
+[2019 Video Capture Lecture](https://youtu.be/jaBzdpftdl0)
+
 Week 11: More AI services including text analysis, image analysis, chatbots and data anaylsis using Jupyter and SageMaker ([MoreAI](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503MoreAI.pptx) (pptx), [More AI Intro Video](https://youtu.be/Uz25dAUf-TU), [Chatbots Video](https://youtu.be/rb9knoeXIss), [SageMaker Video](https://youtu.be/JmlFz-rLBAc), [SageMaker Demo Video](https://youtu.be/jHHySmY2KUc))
+
+[2019 Video Capture Lecture](https://youtu.be/nLD7_WMC2xc)
 
 Week 12: Mobile application integration and services and IoT integration using cloud services ([MobileIntegration](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503EMobile.pptx) (pptx), [Mobile Video](https://youtu.be/NAqVZrkHD-s), [Mobile Demo, Video](https://youtu.be/fUP935lHwmc))
 
@@ -81,6 +97,8 @@ Week 8:[Lab 7 DevOps](https://github.com/dglance/cits5503/blob/master/Labs/Lab7D
 Week 9:[Lab 8 Machine learning using classification and categorisation services](https://github.com/dglance/cits5503/blob/master/Labs/Lab8AI.md)
 
 Week 10:[Lab 9 More AI: Text analysis, image analysis, chatbots](https://github.com/dglance/cits5503/blob/master/Labs/Lab9MoreAI.md)
+
+
 
 ## Assessment
 
