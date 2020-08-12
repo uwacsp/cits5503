@@ -19,7 +19,7 @@ ROOT_DIR = '.'
 ROOT_S3_DIR = 'STUDENTNUMBER-cloudstorage'
 
 
-s3 = boto3.resource("s3")
+s3 = boto3.client("s3")
 
 bucket_config = {'LocationConstraint': 'ap-southeast-2'}
 
