@@ -82,7 +82,6 @@ aws ec2 terminate-instances --instance-ids i-<your instance id>
 
 ### [1] Repeat the steps above using the equivalent Boto commands in a python script. The script should output the IP address to connect to.
 
-### [2] Submit the script you create
 
 Optional: Create an EC2 instance using the console interface. Are there any differences from doing through the command line?
 
@@ -164,7 +163,3 @@ To stop and remove the container
 docker stop my-app
 docker rm my-app
 ```
-
-## Submission and Quiz
-
-Submit the python code you wrote to create the EC2 instance
