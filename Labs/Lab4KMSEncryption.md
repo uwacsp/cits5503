@@ -158,6 +158,3 @@ You can use the example code for doing this from https://github.com/dglance/cits
 What is the performance difference between using KMS and using the custom solution?
 
 
-## Submission
-
-Submit the python code files you wrote

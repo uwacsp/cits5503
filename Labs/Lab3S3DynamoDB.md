@@ -95,7 +95,5 @@ Add the functionality to apply changes to permissions and ownership when the dir
 
 Check timestamps on files and only upload if the file has been updated.
 
-## Submission
 
-Submit the python code files you wrote 
 

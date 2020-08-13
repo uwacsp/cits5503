@@ -128,7 +128,4 @@ access both of the EC2 instances by refreshing the page.
 *IMPORTANT* When finished. Delete the Load balancer, target group,
 listener and EC2 instances.
 
-## Submission
-
-Submit the Python file for your program
  

@@ -92,16 +92,6 @@ we are keeping it simple.
 
 The documentation for Fabric is here: http://docs.fabfile.org/en/2.0/
 
-## Submission
-
-Submit the python file you wrote with the Fabric commands
-
-### Marking Criteria
-
-Fabric code sets up nginx correctly configured to run a Django App 2 
-marks  
-Fabric code installs Django app from local directory correctly and runs it
-correctly 3 marks  
 
 
 

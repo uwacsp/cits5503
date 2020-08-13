@@ -293,13 +293,3 @@ aws lex-runtime post-text \
 ### [Step 6] Make sure all resources are deleted when complete
 
 
-
-**REMEMBER**
-
-You will be awarded zero marks If we don't see evidence that you ran the python app or
-scripts.
-
-We will deduct marks if you fail to name resources correctly with your
-student number.
-
-We will deduct marks if you fail to clean up resources you  have created.

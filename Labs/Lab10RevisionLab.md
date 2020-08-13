@@ -59,20 +59,5 @@ You shouldn't be able to access folder2 or folder3.
 This will make more sense when you do the exam.
 
 
-## Submission
-
-Submit the python code file you wrote that should include the policy
-
-Delete the bucket and folders
-
-**REMEMBER**
-
-You will be awarded zero marks If we don't see evidence that you ran the python app or
-scripts.
-
-We will deduct marks if you fail to name resources correctly with your
-student number.
-
-We will deduct marks if you fail to clean up resources you  have created.
 
 

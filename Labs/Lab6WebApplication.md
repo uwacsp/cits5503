@@ -234,7 +234,5 @@ def index(request):
 
 You can add variables to the template and more formatting to display the information correctly.
 
-## Submission
 
-Submit the views.py file with the boto3 DynamoDB code added
 
