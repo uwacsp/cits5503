@@ -48,15 +48,19 @@ Week 3: Computer virtualisation. Background and different approaches. Containers
 
 Week 4: AWS storage EBS, S3, DynamoDB ([Storage](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503LectureStorage.pptx), [S3 Video](https://youtu.be/ob6x5ZotyWk), [DynamoDB Video](https://youtu.be/mhNU38b96Oc "Dynamo DB"))
 
+[Assignments for week 4 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
+
 [2019 Video Capture Lecture](https://youtu.be/9Ff02Kmt5mw)
 
 Week 5: AWS security and identity management ([IAM](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503LectureIAM.pptx), [Video](https://youtu.be/3prrCQxlJoQ))
+
+[Assignments for week 5 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
 
 [2019 Video Capture Lecture](https://youtu.be/kvpVZq56hB4)
 
 Week 6: Networking, IP addressing, subnets, routing virtual private clouds ([Networking](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503Networking.pptx), [Networking Video](https://youtu.be/FeIzLjkRi28), [NAT](https://youtu.be/fpHifzYGosA), [ELB](https://youtu.be/h5rhWRbuI74))
 
-
+[Assignments for week 6 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
 
 ## Week 7: Mid Term Exam
 
