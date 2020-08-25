@@ -72,6 +72,11 @@ wget https://s3-ap-northeast-1.amazonaws.com/dynamodb-local-tokyo/dynamodb_local
 java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar –sharedDb
 ```
 
+Or you can use docker as we discussed in Week 2:
+```
+docker run -p 8000:8000 amazon/dynamodb-local -jar DynamoDBLocal.jar -inMemory -sharedDb
+```
+
 Create a table on your local DynamoDB with the key userId
 The attributes for the table will be:
 
