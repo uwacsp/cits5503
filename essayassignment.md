@@ -36,9 +36,9 @@ The overall assignment is worth 40%. The report will be marked out of 100. Marks
 
 For each section, marks will be allocated as follows:
 
-[1] Text uses good English and grammar. It is understandable and reads well (5 marks)
-[2] Good coverage and logic of the main points to underpin the argument being made (10 marks)
-[3] Factually correct explanations of the technologies and principles being used (5 marks)
-[4] Clear evidence of independent research of material, products, services (5 marks)
+1. Text uses good English and grammar. It is understandable and reads well (5 marks)
+2. Good coverage and logic of the main points to underpin the argument being made (10 marks)
+3. Factually correct explanations of the technologies and principles being used (5 marks)
+4. Clear evidence of independent research of material, products, services (5 marks)
 
 Bonus marks of up to 5% can be earned for anything showing research of material outside of content provided in lectures or labs.
