@@ -58,9 +58,14 @@ Week 5: AWS security and identity management ([IAM](https://github.com/uwacsp/ci
 
 [2019 Video Capture Lecture](https://youtu.be/kvpVZq56hB4)
 
+[Lab Recording Week 5](https://youtu.be/6wtiTn45Lu4)
+
+
 Week 6: Networking, IP addressing, subnets, routing virtual private clouds ([Networking](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503Networking.pptx), [Networking Video](https://youtu.be/FeIzLjkRi28), [NAT](https://youtu.be/fpHifzYGosA), [ELB](https://youtu.be/h5rhWRbuI74))
 
 [Assignments for week 6 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
+
+[Lab Recording Week 6](https://youtu.be/lDp1l0vC0dI)
 
 ## Week 7: Mid Term Exam
 
