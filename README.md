@@ -67,7 +67,11 @@ Week 6: Networking, IP addressing, subnets, routing virtual private clouds ([Net
 
 [Lab Recording Week 6](https://youtu.be/lDp1l0vC0dI)
 
-## Week 7: Mid Term Exam
+## Week 7: Essay Assignment Week
+
+There will be no scheduled labs or content for lectures and the time can be used for the assignment
+
+[Essay Assignment Due Sunday 4th October 23:59 AWST](https://github.com/uwacsp/cits5503/blob/master/essayassignment.md)
 
 Week 8: Web architectures using python as a model with RDBMS ([WebArchitecture](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503WebArchitecture.pptx) (pptx)[Web Architecture Video](https://youtu.be/hl9QZS-ovn4), [Django Demo](https://youtu.be/wQZYSURos-s), [SQS Video](https://youtu.be/jVF3JAUMaw0)
 
