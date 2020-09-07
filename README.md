@@ -22,7 +22,7 @@ Students are able to
 6.  Use cloud services to carry out specific use cases such as data analytics, machine learning and other artificial intelligence tasks
 7.  Write code in Python using a variety of SDKs to achieve the above where appropriate
 
-The course consists of 12 weeks of lectures and 10 weeks of practical lab classes. Assessment is through a mid-term exam and a final exam.
+The course consists of 12 weeks of lectures and 10 weeks of practical lab classes. Assessment is through an essay and a final exam.
 
 
 [Reading List](https://github.com/uwacsp/cits5503/blob/master/readings.md)
@@ -103,17 +103,18 @@ Week 5:[Lab4 IAM, KMS and AES encryption](https://github.com/dglance/cits5503/bl
 
 Week 6:[Lab 5 Networks and VPC](https://github.com/dglance/cits5503/blob/master/Labs/Lab5Networking.md)
 
-Week 7:[Lab 6 Web applications, Django and ELB](https://github.com/dglance/cits5503/blob/master/Labs/Lab6WebApplication.md)
+Week 7: No labs this week to make up for the assignment
 
-Week 8:[Lab 7 DevOps](https://github.com/dglance/cits5503/blob/master/Labs/Lab7DevOps.md)
+Week 8:[Lab 6 Web applications, Django and ELB](https://github.com/dglance/cits5503/blob/master/Labs/Lab6WebApplication.md)
 
-Week 9:[Lab 8 Machine learning using classification and categorisation services](https://github.com/dglance/cits5503/blob/master/Labs/Lab8AI.md)
+Week 9:[Lab 7 DevOps](https://github.com/dglance/cits5503/blob/master/Labs/Lab7DevOps.md)
 
-Week 10:[Lab 9 More AI: Text analysis, image analysis, chatbots](https://github.com/dglance/cits5503/blob/master/Labs/Lab9MoreAI.md)
+Week 10:[Lab 8 Machine learning using classification and categorisation services](https://github.com/dglance/cits5503/blob/master/Labs/Lab8AI.md)
 
+Week 11:[Lab 9 More AI: Text analysis, image analysis, chatbots](https://github.com/dglance/cits5503/blob/master/Labs/Lab9MoreAI.md)
 
 
 ## Assessment
 
-40% Midterm Exam, 60% Final Exam
+40% Essay, 60% Final Exam
 
