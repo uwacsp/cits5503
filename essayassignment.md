@@ -16,7 +16,7 @@ Also, you are aware that there will be future requirements such as data analysis
 
 Finally, you are driven by the principles of privacy and security by design. Factor that approach into what you recommend and discuss.
 
-The report should be between 3,000 – 5,000 words and include the following sections:
+The report should be between 3,000 - 5,000 words and include the following sections:
 
 [1] The move to the cloud. The pros and cons of moving infrastructure from being on-premises to cloud based. Consider this in the context of global expansion and resilience. Although you are an expert in AWS, you are not limited to recommending an AWS approach. You could suggest using Azure, Google Cloud, Alibaba Cloud or a mixture. Remember the countries that you want to operate in, includes China, how would you serve that market? What would be the issues of a hybrid approach and how could your architecture accommodate this (answer this in [2]) 
 
@@ -28,7 +28,7 @@ The report should be between 3,000 – 5,000 words and include the following secti
 
 ### Warnings!
 
-Please do not quote text from AWS or other vendor web pages. Put everything into your own words and stick to a factual writing style. This is not an exercise in marketing. Please do not copy paste diagrams either. Of course, do not copy other people’s work and if you reference a research paper or website, use a citation.
+Please do not quote text from AWS or other vendor web pages. Put everything into your own words and stick to a factual writing style. This is not an exercise in marketing. Please do not copy paste diagrams either. Of course, do not copy other people's work and if you reference a research paper or website, use a citation.
 
 ### Marking Rubric
 
