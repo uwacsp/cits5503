@@ -75,13 +75,19 @@ There will be no scheduled labs or content for lectures and the time can be used
 
 Week 8: Web architectures using python as a model with RDBMS ([WebArchitecture](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503WebArchitecture.pptx) (pptx)[Web Architecture Video](https://youtu.be/hl9QZS-ovn4), [Django Demo](https://youtu.be/wQZYSURos-s), [SQS Video](https://youtu.be/jVF3JAUMaw0)
 
+[Assignments for week 8 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
+
 [2019 Video Capture Lecture](https://youtu.be/z_lR-4w2K88)
 
 Week 9: Software controlled deployment of services and software using Chef ([DevOps](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503DevOps.pptx) (pptx), [OpsWorks Chef Video](https://youtu.be/ZyTQc2xDRv4), [DevOps Intro Fabric](https://youtu.be/iuOBJr2Rdkg), [Code Build Video](https://youtu.be/doW1ZjnMNfQ))
 
+[Assignments for week 9 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
+
 [2019 Video Capture Lecture](https://youtu.be/P6JUMUGNooU)
 
 Week 10: Machine learning using classification and categorisation services ([AI](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503AI.pptx) (pptx), [AI Video](https://youtu.be/tHyPwdB5ghI), [ML Demo Video](https://youtu.be/Q5YHt_FieeQ))
+
+[Final - Assignments for week 10 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
 
 [2019 Video Capture Lecture](https://youtu.be/jaBzdpftdl0)
 
