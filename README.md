@@ -89,6 +89,8 @@ Week 9: Software controlled deployment of services and software using Chef ([Dev
 
 [2019 Video Capture Lecture](https://youtu.be/P6JUMUGNooU)
 
+[Lab Recording Week 9](https://youtu.be/NNLp5x9Iyes)
+
 Week 10: Machine learning using classification and categorisation services ([AI](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503AI.pptx) (pptx), [AI Video](https://youtu.be/tHyPwdB5ghI), [ML Demo Video](https://youtu.be/Q5YHt_FieeQ))
 
 [Final - Assignments for week 10 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
