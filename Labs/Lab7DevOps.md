@@ -40,7 +40,7 @@ pip install fabric
 You will need to create a config file in ~/.ssh with the contents:
 
 ```
-Home <ec2instance>
+Host <ec2instance>
 	Hostname <EC2 instance public DNS>
 	User ubuntu
 	UserKnownHostsFile /dev/null
