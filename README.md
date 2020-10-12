@@ -97,9 +97,13 @@ Week 10: Machine learning using classification and categorisation services ([AI]
 
 [2019 Video Capture Lecture](https://youtu.be/jaBzdpftdl0)
 
+[Lab Recording Week 10](https://youtu.be/bnhfkWhPw8M)
+
 Week 11: More AI services including text analysis, image analysis, chatbots and data anaylsis using Jupyter and SageMaker ([MoreAI](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503MoreAI.pptx) (pptx), [More AI Intro Video](https://youtu.be/Uz25dAUf-TU), [Chatbots Video](https://youtu.be/rb9knoeXIss), [SageMaker Video](https://youtu.be/JmlFz-rLBAc), [SageMaker Demo Video](https://youtu.be/jHHySmY2KUc))
 
 [2019 Video Capture Lecture](https://youtu.be/nLD7_WMC2xc)
+
+[Lab Recording Week 11](https://youtu.be/wuLczWEBKQI)
 
 Week 12: Mobile application integration and services and IoT integration using cloud services ([MobileIntegration](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503EMobile.pptx) (pptx), [Mobile Video](https://youtu.be/NAqVZrkHD-s), [Mobile Demo, Video](https://youtu.be/fUP935lHwmc))
 
