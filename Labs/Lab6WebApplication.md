@@ -66,7 +66,7 @@ sudo bash
 apt install nginx
 ```
 
-edit /etc/nginx/sites-enabled/default and replace the contents of the file with 
+edit /etc/nginx/sites-enabled/default and replace the contents of the file with
 
 ```
 server {
@@ -82,20 +82,20 @@ server {
 }
 ```
 
-Once you have done this you can restart nginx 
+Once you have done this you can restart nginx
 
 ```
 service nginx restart
 ```
 
-in your app directory: /opt/wwc/mysites/lab you can run 
+in your app directory: /opt/wwc/mysites/lab you can run
 
 ```
 python3 manage.py runserver 8000
 ```
 
 If you go to a browser now and use the ip address of your ec2 instance, you should see:
- 
+
 
 ### [Step 3] Changing the code
 
@@ -104,20 +104,20 @@ If you go to a browser now and use the ip address of your ec2 instance, you shou
 edit polls/views.py
 
 ```
-from django.http import HttpResponse 
+from django.http import HttpResponse
 
-def index(request): 
+def index(request):
     return HttpResponse("Hello, world.")
 ```
-	
+
 edit polls/urls.py
 
 ```
-from django.urls import path 
-from . import views 
+from django.urls import path
+from . import views
 
-urlpatterns = [ 
-    path('', views.index, name='index'), 
+urlpatterns = [
+    path('', views.index, name='index'),
 ]
 ```
 
@@ -125,15 +125,15 @@ edit lab/urls.py
 
 ```
 from django.urls import include, path
-from django.contrib import admin 
+from django.contrib import admin
 
-urlpatterns = [ 
+urlpatterns = [
     path('polls/', include('polls.urls')),
-    path('admin/', admin.site.urls), 
+    path('admin/', admin.site.urls),
 ]
 ```
 
-now run 
+now run
 
 ```
 python3 manage.py runserver 8000
@@ -162,9 +162,9 @@ You can now access the site using the url http://\<load balancer dns name>/polls
 
 You will need to create a table and update the data in it as you did
 in the DynamoDB lab. This time however, you will use the AWS DynamoDB
-instance. 
+instance.
 
-In views.py, add boto3 code to scan the DynamoDB table you created for your CloudStorage command line application. Display the results in the calling page. 
+In views.py, add boto3 code to scan the DynamoDB table you created for your CloudStorage command line application. Display the results in the calling page.
 
 In Django, you can use templates to properly format a web page using supplied variables – you can do that to make the table look nice. To use a template, you need to create a templates directory under polls and then add to the TEMPLATES section of lab/settings.py
 
@@ -176,7 +176,7 @@ TEMPLATES = [
             'polls/templates/'
         ],
 ```
- 
+
 In the templates directory, add a file files.html with the following contents:
 
 ```
@@ -187,7 +187,7 @@ In the templates directory, add a file files.html with the following contents:
 <body>
     <h1>Files </h1>
 
-    
+
     <ul>
         {% for item in items %}
           <li>{{ item.fileName }}</li>
@@ -204,13 +204,13 @@ Finally in views.py, you can pass variables from your DynamoDB call and render t
 ```
 from django.shortcuts import render
 from django.template import loader
-from django.http import HttpResponse 
+from django.http import HttpResponse
 import boto3
 import json
 from boto3.dynamodb.conditions import Key, Attr
 from botocore.exceptions import ClientError
 
-def index(request): 
+def index(request):
     template = loader.get_template('files.html')
 
     dynamodb = boto3.resource('dynamodb', region_name='ap-southeast-2',
@@ -222,7 +222,7 @@ def index(request):
     items = []
     try:
         response = table.scan()
-        
+
     except ClientError as e:
         print(e.response['Error']['Message'])
     else:    
@@ -230,9 +230,11 @@ def index(request):
 
         return HttpResponse(template.render(context, request))
 ```
-		
+
 
 You can add variables to the template and more formatting to display the information correctly.
 
-
-
+Lab Assessment:
+Please submit a single zip file with the following.
+1. Screenshots
+2. Scripts and files

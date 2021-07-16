@@ -6,9 +6,9 @@ Students will gain a sound understanding of cloud-based computing and the opport
 
 An overarching goal of the unit is to provide students with an opportunity to undertake problem identification, analysis and solution and to apply these skills to the field of Cloud Computing.
 
-## Note on the use of AWS and Alibaba Cloud
+## Note on the use of AWS
 
-The course is based on the cloud services of Amazon Web Services and Alibaba Cloud and a range of open source and other products. It is not possible in a couse such as this to cover all of the products that these cloud services provide. The theme has been to concentrate on the most common use cases of [a] using AWS and Alibaba Cloud to deploy web applications utilising data sources such as databases and [b] data analytics and machine learning.
+The course is based on the cloud services of Amazon Web Services and a range of open source and other products. It is not possible in a course such as this to cover all of the products that these cloud services provide. The theme has been to concentrate on the most common use cases of [a] using AWS to deploy web applications utilising data sources such as databases and [b] data analytics and machine learning.
 
 ## Learning Outcomes
 
@@ -22,15 +22,18 @@ Students are able to
 6.  Use cloud services to carry out specific use cases such as data analytics, machine learning and other artificial intelligence tasks
 7.  Write code in Python using a variety of SDKs to achieve the above where appropriate
 
-The course consists of 12 weeks of lectures and 10 weeks of practical lab classes. Assessment is through an essay and a final exam.
+The course consists of 12 weeks of lectures and 10 weeks of practical lab classes (2 points each). Assessment is through an midexam and a final exam.
 
+20% Labs
+30% MidExam
+50% Final Exam
 
 [Reading List](https://github.com/uwacsp/cits5503/blob/master/readings.md)
 
 
 ## Lectures
 
-[Intro for 2020](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503CloudComputingIntro2020.pptx)
+[Intro for 2021](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503CloudComputingIntro2021.pptx)
 
 Week 1: Motivation for cloud computing, introduction to cloud computing ([CloudComputingIntro](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503CloudComputingIntro.pptx)(pptx), [Video](https://youtu.be/a5zzb_T29GQ "Cloud Computing Intro"), [WhatIsTheCloud](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503WhatIsTheCloud.pptx) (pptx), [Video 1](https://youtu.be/qOIVPURG6sI), [Video 2](https://youtu.be/Hw8yVPlE3WU "What is the cloud part 2"))
 
@@ -133,4 +136,3 @@ Week 11:[Lab 9 More AI: Text analysis, image analysis, chatbots](https://github.
 ## Assessment
 
 40% Essay, 60% Final Exam
-

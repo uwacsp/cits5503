@@ -163,3 +163,8 @@ To stop and remove the container
 docker stop my-app
 docker rm my-app
 ```
+
+Lab Assessment:
+Please submit a single zip file containing:
+1. The files index.html, Dockerfile and the rest of linux commands in a single run.sh file.
+2. Screenshots of your terminal with the outputs from each step.

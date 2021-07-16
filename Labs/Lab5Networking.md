@@ -26,7 +26,7 @@ The aim of this lab is to write a program that will:
 [1] Understand how to configure different network arrangements to gain and control access to computers and other networked resources
 [2] Understand IP addressing and CIDR and the meaning of TCP and UDP ports
 
-## Networking 
+## Networking
 
 ### [Step 1] Configure inbound IP on VirtualBox VM
 
@@ -37,7 +37,7 @@ This can be done in a number of ways, but we are going to use NAT port mapping. 
    [a] Use the localhost host IP 127.0.0.1 and host port 2222 and map that to Guest Port 22
    [b] Add a similar rule mapping Host Port 8080 to Guest Port 80
 
-[3] Testing! You can test the NAT’d ports by running your docker app and seeing if you can access it from your computer – the url will be http://127.0.0.1:8080 
+[3] Testing! You can test the NAT’d ports by running your docker app and seeing if you can access it from your computer – the url will be http://127.0.0.1:8080
 Enable ssh to the VM by installing **sshd** as follows:
 
 ```
@@ -56,7 +56,7 @@ you can stop it using:
 ```
  sudo service ssh stop
  ```
- 
+
 To ssh to the VM, open a terminal on your PC (or use Putty) and ssh as
 
 ```
@@ -82,7 +82,7 @@ lab.
 
 ### USE YOUR STUDENT NUMBER TO IDENTIFY ALL RESOURCES
 
-Objective: Write an application to create 2 EC2 instances in two availability zones, create an application load balancer and load balance HTTP requests to the 2 instances. 
+Objective: Write an application to create 2 EC2 instances in two availability zones, create an application load balancer and load balance HTTP requests to the 2 instances.
 
 You will need to do some manual intervention to get Apache 2 installed and the index.html file edited. Do this after you have created the instances and ALB. In a future lab you will learn how this could be done through a program as well.
 
@@ -128,4 +128,7 @@ access both of the EC2 instances by refreshing the page.
 *IMPORTANT* When finished. Delete the Load balancer, target group,
 listener and EC2 instances.
 
- 
+Lab Assessment:
+Please submit a single zip file with the following.
+1. Screenshots
+2. Scripts

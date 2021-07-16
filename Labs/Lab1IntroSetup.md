@@ -162,4 +162,5 @@ This will create an un-tabulated response.
 
 ### [3] Put this code into a python file and tabulate the print to have 2 columns with Endpoint and RegionName
 
-### [4] Spend some time looking at VirtualBox and especially the configuration for its CPU, RAM, Disk, Network
+Lab Assessment:
+Submit your python code from step [3]

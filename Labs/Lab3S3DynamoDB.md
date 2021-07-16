@@ -33,7 +33,7 @@ The aim of this lab is to write a program that will:
 
 Download the python code cloudstorage.py from https://github.com/dglance/cits5503/blob/master/Labs/src/cloudstorage.py \
 Create a directory rootdir \
-Create a file in rootdir called rootfile.txt and put some content in it “1\n2\n3\n4\n5\n” 
+Create a file in rootdir called rootfile.txt and put some content in it “1\n2\n3\n4\n5\n”
 
 Create a second directory in rootdir called subdir and create another file subfile.txt with the same content as rootfile.txt
 
@@ -43,7 +43,7 @@ Edit cloudstorage.py to take one argument: -i, --initialise=True – this will u
 
 Insert boto commands to save each file that is found as the program traverses the directory starting at the root directory rootdir.
 
-NOTE the easiest way to upload files is to use the command: 
+NOTE the easiest way to upload files is to use the command:
 
 ```
 s3.upload_file()
@@ -57,7 +57,7 @@ Create a new program called restorefromcloud.py that reads the S3 bucket and wri
 Install DynamoDB on your VM.
 
 ```
-mkdir dynamodb; 
+mkdir dynamodb;
 cd dynamodb
 ```
 
@@ -96,9 +96,11 @@ For every file that is stored in S3, get the information to put in the DynamoDB 
 
 ### [Step 5] Optional
 
-Add the functionality to apply changes to permissions and ownership when the directory and files are restored. 
+Add the functionality to apply changes to permissions and ownership when the directory and files are restored.
 
 Check timestamps on files and only upload if the file has been updated.
 
-
-
+Lab Assessment:
+Please submit a single zip file with the following.
+1. Screenshots
+2. Scripts

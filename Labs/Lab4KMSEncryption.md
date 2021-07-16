@@ -157,4 +157,7 @@ You can use the example code for doing this from https://github.com/dglance/cits
 
 What is the performance difference between using KMS and using the custom solution?
 
-
+Lab Assessment:
+Please submit a single zip file with the following.
+1. Screenshots
+2. Scripts
