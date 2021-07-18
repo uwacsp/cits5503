@@ -102,7 +102,7 @@ Week 10: Machine learning using classification and categorisation services ([AI]
 
 [Lab Recording Week 10](https://youtu.be/bnhfkWhPw8M)
 
-Week 11: More AI services including text analysis, image analysis, chatbots and data anaylsis using Jupyter and SageMaker ([MoreAI](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503MoreAI.pptx) (pptx), [More AI Intro Video](https://youtu.be/Uz25dAUf-TU), [Chatbots Video](https://youtu.be/rb9knoeXIss), [SageMaker Video](https://youtu.be/JmlFz-rLBAc), [SageMaker Demo Video](https://youtu.be/jHHySmY2KUc))
+Week 11: More AI services including text analysis, image analysis, chatbots and data analysis using Jupyter and SageMaker ([MoreAI](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503MoreAI.pptx) (pptx), [More AI Intro Video](https://youtu.be/Uz25dAUf-TU), [Chatbots Video](https://youtu.be/rb9knoeXIss), [SageMaker Video](https://youtu.be/JmlFz-rLBAc), [SageMaker Demo Video](https://youtu.be/jHHySmY2KUc))
 
 [2019 Video Capture Lecture](https://youtu.be/nLD7_WMC2xc)
 
@@ -135,4 +135,4 @@ Week 11:[Lab 9 More AI: Text analysis, image analysis, chatbots](https://github.
 
 ## Assessment
 
-40% Essay, 60% Final Exam
+20% Labs, 30% Midterm exam, 50% Final Exam
