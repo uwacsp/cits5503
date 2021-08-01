@@ -112,7 +112,7 @@ Week 12: Mobile application integration and services and IoT integration using c
 
 ## Labs
 
-This semester all labs will be assessed as "Lab notes". You should follow all steps in each lab and include your own comments. In addition, include screenshots showing the output for every commandline instruction that you execute in the terminal and any other relevant screenshots that demonstrate you followed the steps from the corresponding lab. Please also include any linux or python script that you create and the corresponding output you get when executed.
+This semester all labs will be assessed as "Lab notes". You should follow all steps in each lab and include your own comments. In addition, include screenshots showing the output for every commandline instruction that you execute in the terminal and any other relevant screenshots that demonstrate you followed the steps from the corresponding lab. Please also include any bash or python script that you create and the corresponding output you get when executing it.
 Please submit a single PDF file. The formatting is up to you but a well organised structure of your notes is appreciated.
 
 Week 2:[Lab1 Intro and setup of environment](https://github.com/dglance/cits5503/blob/master/Labs/Lab1IntroSetup.md)
