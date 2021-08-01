@@ -28,7 +28,7 @@ NOTE: Whilst some of the work that has been outlined in the labs can be done on 
 
 Your username is <student number>@student.uwa.edu.au Password details will be provided separately.
 
-The login is here: https://cits5503.signin.aws.amazon.com/console
+The login is here: https://622578507161.signin.aws.amazon.com/console
 
 You will need to change your password on login – you are encouraged to do that as quickly as possible.
 
