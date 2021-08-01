@@ -163,4 +163,5 @@ This will create an un-tabulated response.
 ### [3] Put this code into a python file and tabulate the print to have 2 columns with Endpoint and RegionName
 
 Lab Assessment:
-Submit your python code from step [3]
+
+This semester all labs will be assessed as "Lab notes". You should follow all steps in each lab and include your own comments for each step. Also, include screenshots for every commandline instruction that you execute in your the terminal and any other relevant screenshots showing the results you get after executing any scripts. Please submit a single PDF file. The formatting is up to you but a well organised structure of your notes is appreciated.
