@@ -42,6 +42,7 @@ Week 1: Motivation for cloud computing, introduction to cloud computing ([CloudC
 Week 2: Cloud Computing and AWS: Introduction to AWS platform and services, awscli command line and python boto programming interfaces ([AWSIntro](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503AWSIntro.pptx)(pptx) [Video](https://youtu.be/_UxpJeOB-bM) [Boto](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503LectureBoto.pptx)(pptx) Video Presentation from [AWS](https://youtu.be/Mupg0-YEO_E)
 
 [Lecture Video 2021 - Week 2](https://youtu.be/-pYhN04yuhg)
+[Lab 1 Online Session 2021](https://youtu.be/PDACdigZaz4)
 
 [Assignments for week 2 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
 
