@@ -243,10 +243,14 @@ Machine learning using classification and categorisation services
             - AI + ML Demo: [Video](https://youtu.be/Q5YHt_FieeQ)
         - 2020 (2019): [Video](https://youtu.be/jaBzdpftdl0)
 
+#### Lab 8
+
+- Instructions: [Lab8AI.md](https://github.com/hadeneh/cits5503/blob/master/Labs/Lab8AI.md)
+    - Previous Recordings (2020): [Lab Video](https://youtu.be/bnhfkWhPw8M)
+
+
 [Final - Assignments for week 10 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
 
-
-[Lab Recording Week 10](https://youtu.be/bnhfkWhPw8M)
 
 Week 11: More AI services including text analysis, image analysis, chatbots and data analysis using Jupyter and SageMaker ([MoreAI](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503MoreAI.pptx) (pptx), [More AI Intro Video](https://youtu.be/Uz25dAUf-TU), [Chatbots Video](https://youtu.be/rb9knoeXIss), [SageMaker Video](https://youtu.be/JmlFz-rLBAc), [SageMaker Demo Video](https://youtu.be/jHHySmY2KUc))
 
