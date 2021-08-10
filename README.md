@@ -136,7 +136,7 @@ AWS security and identity management
 
 #### Content
 
-- [IAM (Identity Access Management)](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503LectureIAM.pptx)
+- [IAM (Identity Access Management)](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503LectureIAM.pptx) (pptx)
     - Previous Lecture Recording: 
         - 2019: [Video](https://youtu.be/3prrCQxlJoQ)
         - 2020: [Video](https://youtu.be/kvpVZq56hB4)
@@ -152,7 +152,16 @@ AWS security and identity management
 
 ---
 
-Week 6: Networking, IP addressing, subnets, routing virtual private clouds ([Networking](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503Networking.pptx), [Networking Video](https://youtu.be/FeIzLjkRi28), [NAT](https://youtu.be/fpHifzYGosA), [ELB](https://youtu.be/h5rhWRbuI74))
+### Week 6
+
+Networking, IP addressing, subnets, routing virtual private clouds
+
+#### Content
+
+- [Networking](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503Networking.pptx) (pptx)
+    1. Networking Fundamentals (2018): [Video](https://youtu.be/FeIzLjkRi28)
+    2. NAT (Network Address Translation) (2018): [Video](https://youtu.be/fpHifzYGosA)
+    3. ELB (Elastic Load Balancing) (2018): [Video](https://youtu.be/h5rhWRbuI74)
 
 [Assignments for week 6 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
 
