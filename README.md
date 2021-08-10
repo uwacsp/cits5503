@@ -32,35 +32,33 @@ The course consists of 12 weeks of lectures and 10 weeks of practical lab classe
 
 [Reading List](https://github.com/uwacsp/cits5503/blob/master/readings.md)
 
-___
-___
-
 ## Lectures
 
 ### Introduction to Cloud Computing - CITS5503
 
-- [Intro for 2021](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503CloudComputingIntro2021.pptx)
+
 - [Intro to Cloud Computing (Week 1)](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503CloudComputingIntro.pptx)
+
+---
 
 ### Week 1
 
 Motivation for cloud computing, introduction to cloud computing
 
-#### Contents
+#### Content
 
-- Slides:
-    - [CloudComputingIntro](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503CloudComputingIntro.pptx) (pptx)
-        - Previous Lecture Recording: [Video](https://youtu.be/a5zzb_T29GQ "Cloud Computing Intro")
-    - [WhatIsTheCloud](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503WhatIsTheCloud.pptx) (pptx)
-        - Previous Lecture Recordings: 
-            - [Video 1](https://youtu.be/qOIVPURG6sI "What is the cloud part 1")
-            - [Video 2](https://youtu.be/Hw8yVPlE3WU "What is the cloud part 2")
+- [CloudComputingIntro](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503CloudComputingIntro.pptx) (pptx)
+    - Previous Lecture Recording (2019): [Video](https://youtu.be/a5zzb_T29GQ "Cloud Computing Intro")
+- [WhatIsTheCloud](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503WhatIsTheCloud.pptx) (pptx)
+    - Previous Lecture Recordings: 
+        - 2019 - part 1: [Video](https://youtu.be/qOIVPURG6sI "What is the cloud part 1")
+        - 2019 - part 2: [Video](https://youtu.be/Hw8yVPlE3WU "What is the cloud part 2")
 
 #### Assignments (MidSem Exam)
 
-- Assignments for Week 1
-    - [4 Questions](https://github.com/uwacsp/cits5503/blob/master/assignments.md#week-1)
+- Week 1: [4 Questions](https://github.com/uwacsp/cits5503/blob/master/assignments.md#week-1)
 
+---
 
 ### Week 2
 
@@ -68,33 +66,68 @@ Cloud Computing and AWS: Introduction to AWS platform and services, awscli comma
 
 #### Content
 
-- Slides: 
-    - [AWSIntro](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503AWSIntro.pptx) (pptx) 
-        - Previous Lecture Recording: [Video](https://youtu.be/_UxpJeOB-bM) 
-        - AWS Guest Lecturer: [Video](https://youtu.be/Mupg0-YEO_E)
-    - [Boto](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503LectureBoto.pptx) (pptx) 
-- Lecture Recording 2021: (Teams)
-    - [Lecture Video 2021 - Week 2](https://youtu.be/-pYhN04yuhg) (Same as LMS)
+- [AWSIntro](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503AWSIntro.pptx) (pptx) 
+    - Lecture Recording 2021 (Teams - same on LMS): [Lecture Video 2021 - Week 2](https://youtu.be/-pYhN04yuhg)
+    - Previous Lecture Recording (2019): [Video](https://youtu.be/_UxpJeOB-bM) 
+    - AWS Guest Lecturer (2020): [Video](https://youtu.be/Mupg0-YEO_E)
+- [Boto](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503LectureBoto.pptx) (pptx) 
 
-### Lab
+#### Lab 1
 
+- Instructions: [Lab1IntroSetup.md](https://github.com/hadeneh/cits5503/blob/master/Labs/Lab1IntroSetup.md)
 - (Broken Link) [Lab 1 Online Session 2021](https://youtu.be/PDACdigZaz4)
 
 #### Assignments (MidSem Exam)
 
-- Assignments for Week 2: [2 Questions](https://github.com/uwacsp/cits5503/blob/master/assignments.md#week-2)
+- Week 2: [2 Questions](https://github.com/uwacsp/cits5503/blob/master/assignments.md#week-2)
 
-Week 3: Computer virtualisation. Background and different approaches. Containers and Docker ([Virtualisation](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503Virtualisation.pptx), [Video](https://youtu.be/fyo9WmKVHTY))
+---
 
-[Assignments for week 3 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
 
-[2019 Video Capture Lecture](https://youtu.be/uCcyk30FZT4)
 
-Week 4: AWS storage EBS, S3, DynamoDB ([Storage](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503LectureStorage.pptx), [S3 Video](https://youtu.be/ob6x5ZotyWk), [DynamoDB Video](https://youtu.be/mhNU38b96Oc "Dynamo DB"))
 
-[Assignments for week 4 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
+### Week 3
 
-[2019 Video Capture Lecture](https://youtu.be/9Ff02Kmt5mw)
+Computer virtualisation. Background and different approaches. Containers and Docker
+
+#### Content
+
+- [Virtualisation](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503Virtualisation.pptx) (pptx)
+    - Previous Lecture Recordings:
+        - 2020: [Video](https://youtu.be/uCcyk30FZT4)
+        - 2019: [Video](https://youtu.be/fyo9WmKVHTY)
+
+#### Lab 2
+
+- Instructions: [Lab2EC2Docker.md](https://github.com/hadeneh/cits5503/blob/master/Labs/Lab2EC2Docker.md)
+
+#### Assignments (MidSem Exam)
+
+- Week 3: [2 Questions](https://github.com/uwacsp/cits5503/blob/master/assignments.md#week-3)
+
+
+---
+
+### Week 4
+
+AWS storage EBS, S3, DynamoDB
+
+#### Content
+
+- [AWS Storage](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503LectureStorage.pptx) (pptx)
+    - Previous Lecture Recordings:
+        - S3 (2019): [Video](https://youtu.be/ob6x5ZotyWk)
+        - DynamoDB (2019): [Video](https://youtu.be/mhNU38b96Oc "Dynamo DB")
+        - 2020: [Video](https://youtu.be/9Ff02Kmt5mw)
+
+#### Lab 3
+
+- Instructions: [Lab3S3DynamoDB.md](https://github.com/hadeneh/cits5503/blob/master/Labs/Lab3S3DynamoDB.md)
+
+#### Assignments (MidSem Exam)
+
+- Week 4: [4 Questions](https://github.com/uwacsp/cits5503/blob/master/assignments.md#week-4)
+
 
 Week 5: AWS security and identity management ([IAM](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503LectureIAM.pptx), [Video](https://youtu.be/3prrCQxlJoQ))
 
