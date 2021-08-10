@@ -257,32 +257,43 @@ This semester all labs will be assessed as "Lab notes". You should follow all st
 Please submit a single PDF file. The formatting is up to you but a well organised structure of your notes is appreciated.
 
 - No Labs for Week 1.
+
 - Week 2 (Lab 1)
     - Instructions: [Lab1 Intro and setup of environment](https://github.com/dglance/cits5503/blob/master/Labs/Lab1IntroSetup.md)
     - (Broken Link) [Lab 1 Online Session 2021](https://youtu.be/PDACdigZaz4)
+
 - Week 3 (Lab 2)
     - Instructions: [Lab2 EC2 and docker](https://github.com/dglance/cits5503/blob/master/Labs/Lab2EC2Docker.md)
+
 - Week 4 (Lab 3)
     - Instructions: [Lab3 S3 and DynamoDB Creating CloudStorage application](https://github.com/dglance/cits5503/blob/master/Labs/Lab3S3DynamoDB.md)
+
 - Week 5 (Lab 4)
     - Instructions: [Lab4 IAM, KMS and AES encryption](https://github.com/dglance/cits5503/blob/master/Labs/Lab4KMSEncryption.md)
     - Previous Recordings (2020): [Lab Video](https://youtu.be/6wtiTn45Lu4)
+
 - Week 6 (Lab 5)
     - Instructions: [Lab 5 Networks and VPC](https://github.com/dglance/cits5503/blob/master/Labs/Lab5Networking.md)
     - Previous Recordings (2020): [Lab Video](https://youtu.be/lDp1l0vC0dI)
+
 - Week 7: No labs this week to make up for the assignment
+
 - Week 8 (Lab 6)
     - Instructions: [Lab 6 Web applications, Django and ELB](https://github.com/dglance/cits5503/blob/master/Labs/Lab6WebApplication.md)
     - Previous Recordings (2020): [Lab Video](https://youtu.be/vX8AC5s-2bY)
+
 - Week 9 (Lab 7)
     - Instructions: [Lab 7 DevOps](https://github.com/dglance/cits5503/blob/master/Labs/Lab7DevOps.md)
     - Previous Recordings (2020): [Lab Video](https://youtu.be/NNLp5x9Iyes)
+
 - Week 10 (Lab 8)
     - Instructions: [Lab 8 Machine learning using classification and categorisation services](https://github.com/dglance/cits5503/blob/master/Labs/Lab8AI.md)
     - Previous Recordings (2020): [Lab Video](https://youtu.be/bnhfkWhPw8M)
+
 - Week 11 (Lab 9)
     - Instructions: [Lab 9 More AI: Text analysis, image analysis, chatbots](https://github.com/dglance/cits5503/blob/master/Labs/Lab9MoreAI.md)
     - Previous Recordings (2020): [Lab Video](https://youtu.be/wuLczWEBKQI)
+
 - More Labs: 
     - dafsf
     - asfdsf
