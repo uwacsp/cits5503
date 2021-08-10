@@ -167,8 +167,11 @@ Networking, IP addressing, subnets, routing virtual private clouds
 - Instructions: [Lab5Networking.md](https://github.com/hadeneh/cits5503/blob/master/Labs/Lab5Networking.md)
     - Previous Recordings (2020): [Lab Video](https://youtu.be/lDp1l0vC0dI)
 
-[Assignments for week 6 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
+#### Assignments (MidSem Exam)
 
+- Week 6: [2 Questions](https://github.com/uwacsp/cits5503/blob/master/assignments.md#week-6)
+
+---
 
 ## Week 7: Essay Assignment Week
 
