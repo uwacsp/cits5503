@@ -22,30 +22,67 @@ Students are able to
 6.  Use cloud services to carry out specific use cases such as data analytics, machine learning and other artificial intelligence tasks
 7.  Write code in Python using a variety of SDKs to achieve the above where appropriate
 
-The course consists of 12 weeks of lectures and 10 weeks of practical lab classes (2 points each). Assessment is through an midexam and a final exam.
+## Contents and Assessments
 
-20% Labs
-30% MidExam
-50% Final Exam
+The course consists of 12 weeks of lectures and 10 weeks of practical lab classes (2 points each). Assessment is through a midsem exam and a final exam.
+
+- 20% Labs
+- 30% MidSem Exam
+- 50% Final Exam
 
 [Reading List](https://github.com/uwacsp/cits5503/blob/master/readings.md)
 
+___
+___
 
 ## Lectures
 
-[Intro for 2021](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503CloudComputingIntro2021.pptx)
+### Introduction to Cloud Computing - CITS5503
 
-Week 1: Motivation for cloud computing, introduction to cloud computing ([CloudComputingIntro](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503CloudComputingIntro.pptx)(pptx), [Video](https://youtu.be/a5zzb_T29GQ "Cloud Computing Intro"), [WhatIsTheCloud](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503WhatIsTheCloud.pptx) (pptx), [Video 1](https://youtu.be/qOIVPURG6sI), [Video 2](https://youtu.be/Hw8yVPlE3WU "What is the cloud part 2"))
+- [Intro for 2021](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503CloudComputingIntro2021.pptx)
+- [Intro to Cloud Computing (Week 1)](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503CloudComputingIntro.pptx)
 
-[Assignments for week 1](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
+### Week 1
 
-Week 2: Cloud Computing and AWS: Introduction to AWS platform and services, awscli command line and python boto programming interfaces ([AWSIntro](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503AWSIntro.pptx)(pptx) [Video](https://youtu.be/_UxpJeOB-bM) [Boto](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503LectureBoto.pptx)(pptx) Video Presentation from [AWS](https://youtu.be/Mupg0-YEO_E)
+Motivation for cloud computing, introduction to cloud computing
 
-[Lecture Video 2021 - Week 2](https://youtu.be/-pYhN04yuhg)
+#### Contents
 
-[Lab 1 Online Session 2021](https://youtu.be/PDACdigZaz4)
+- Slides:
+    - [CloudComputingIntro](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503CloudComputingIntro.pptx) (pptx)
+        - Previous Lecture Recording: [Video](https://youtu.be/a5zzb_T29GQ "Cloud Computing Intro")
+    - [WhatIsTheCloud](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503WhatIsTheCloud.pptx) (pptx)
+        - Previous Lecture Recordings: 
+            - [Video 1](https://youtu.be/qOIVPURG6sI "What is the cloud part 1")
+            - [Video 2](https://youtu.be/Hw8yVPlE3WU "What is the cloud part 2")
 
-[Assignments for week 2 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
+#### Assignments (MidSem Exam)
+
+- Assignments for Week 1
+    - [4 Questions](https://github.com/uwacsp/cits5503/blob/master/assignments.md#week-1)
+
+
+### Week 2
+
+Cloud Computing and AWS: Introduction to AWS platform and services, awscli command line and python boto programming interfaces 
+
+#### Content
+
+- Slides: 
+    - [AWSIntro](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503AWSIntro.pptx) (pptx) 
+        - Previous Lecture Recording: [Video](https://youtu.be/_UxpJeOB-bM) 
+        - AWS Guest Lecturer: [Video](https://youtu.be/Mupg0-YEO_E)
+    - [Boto](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503LectureBoto.pptx) (pptx) 
+- Lecture Recording 2021: (Teams)
+    - [Lecture Video 2021 - Week 2](https://youtu.be/-pYhN04yuhg) (Same as LMS)
+
+### Lab
+
+- (Broken Link) [Lab 1 Online Session 2021](https://youtu.be/PDACdigZaz4)
+
+#### Assignments (MidSem Exam)
+
+- Assignments for Week 2: [2 Questions](https://github.com/uwacsp/cits5503/blob/master/assignments.md#week-2)
 
 Week 3: Computer virtualisation. Background and different approaches. Containers and Docker ([Virtualisation](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503Virtualisation.pptx), [Video](https://youtu.be/fyo9WmKVHTY))
 
