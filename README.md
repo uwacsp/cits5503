@@ -163,9 +163,12 @@ Networking, IP addressing, subnets, routing virtual private clouds
     2. NAT (Network Address Translation) (2018): [Video](https://youtu.be/fpHifzYGosA)
     3. ELB (Elastic Load Balancing) (2018): [Video](https://youtu.be/h5rhWRbuI74)
 
+#### Lab 5
+- Instructions: [Lab5Networking.md](https://github.com/hadeneh/cits5503/blob/master/Labs/Lab5Networking.md)
+    - Previous Recordings (2020): [Lab Video](https://youtu.be/lDp1l0vC0dI)
+
 [Assignments for week 6 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
 
-[Lab Recording Week 6](https://youtu.be/lDp1l0vC0dI)
 
 ## Week 7: Essay Assignment Week
 
