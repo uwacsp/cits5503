@@ -248,9 +248,11 @@ Machine learning using classification and categorisation services
 - Instructions: [Lab8AI.md](https://github.com/hadeneh/cits5503/blob/master/Labs/Lab8AI.md)
     - Previous Recordings (2020): [Lab Video](https://youtu.be/bnhfkWhPw8M)
 
+#### Assignments (MidSem Exam)
 
-[Final - Assignments for week 10 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
+- Week 10 (final): [1 Question](https://github.com/uwacsp/cits5503/blob/master/assignments.md#week-10)
 
+---
 
 Week 11: More AI services including text analysis, image analysis, chatbots and data analysis using Jupyter and SageMaker ([MoreAI](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503MoreAI.pptx) (pptx), [More AI Intro Video](https://youtu.be/Uz25dAUf-TU), [Chatbots Video](https://youtu.be/rb9knoeXIss), [SageMaker Video](https://youtu.be/JmlFz-rLBAc), [SageMaker Demo Video](https://youtu.be/jHHySmY2KUc))
 
