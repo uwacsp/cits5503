@@ -200,9 +200,11 @@ Web architectures using python as a model with RDBMS
 - Instructions: [Lab6WebApplication.md](https://github.com/hadeneh/cits5503/blob/master/Labs/Lab6WebApplication.md)
     - Previous Recordings (2020): [Lab Video](https://youtu.be/vX8AC5s-2bY)
 
+#### Assignments (MidSem Exam)
 
-[Assignments for week 8 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
+- Week 8: [2 Questions](https://github.com/uwacsp/cits5503/blob/master/assignments.md#week-8)
 
+---
 
 Week 9: Software controlled deployment of services and software using Chef ([DevOps](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503DevOps.pptx) (pptx), [OpsWorks Chef Video](https://youtu.be/ZyTQc2xDRv4), [DevOps Intro Fabric](https://youtu.be/iuOBJr2Rdkg), [Code Build Video](https://youtu.be/doW1ZjnMNfQ))
 
