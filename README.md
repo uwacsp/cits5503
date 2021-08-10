@@ -74,10 +74,6 @@ Cloud Computing and AWS: Introduction to AWS platform and services, awscli comma
     - AWS Guest Lecturer (2020): [Video](https://youtu.be/Mupg0-YEO_E)
 - [Boto](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503LectureBoto.pptx) (pptx) 
 
-#### Lab 1
-
-- Instructions: [Lab1IntroSetup.md](https://github.com/hadeneh/cits5503/blob/master/Labs/Lab1IntroSetup.md)
-- (Broken Link) [Lab 1 Online Session 2021](https://youtu.be/PDACdigZaz4)
 
 #### Assignments (MidSem Exam)
 
@@ -95,10 +91,6 @@ Computer virtualisation. Background and different approaches. Containers and Doc
     - Previous Lecture Recordings:
         - 2020: [Video](https://youtu.be/uCcyk30FZT4)
         - 2019: [Video](https://youtu.be/fyo9WmKVHTY)
-
-#### Lab 2
-
-- Instructions: [Lab2EC2Docker.md](https://github.com/hadeneh/cits5503/blob/master/Labs/Lab2EC2Docker.md)
 
 #### Assignments (MidSem Exam)
 
@@ -119,10 +111,6 @@ AWS storage EBS, S3, DynamoDB
         - DynamoDB (2019): [Video](https://youtu.be/mhNU38b96Oc "Dynamo DB")
         - 2020: [Video](https://youtu.be/9Ff02Kmt5mw)
 
-#### Lab 3
-
-- Instructions: [Lab3S3DynamoDB.md](https://github.com/hadeneh/cits5503/blob/master/Labs/Lab3S3DynamoDB.md)
-
 #### Assignments (MidSem Exam)
 
 - Week 4: [4 Questions](https://github.com/uwacsp/cits5503/blob/master/assignments.md#week-4)
@@ -139,11 +127,6 @@ AWS security and identity management
     - Previous Lecture Recording: 
         - 2019: [Video](https://youtu.be/3prrCQxlJoQ)
         - 2020: [Video](https://youtu.be/kvpVZq56hB4)
-
-#### Lab 4
-
-- Instructions: [Lab4KMSEncryption.md](https://github.com/hadeneh/cits5503/blob/master/Labs/Lab4KMSEncryption.md)
-    - Previous Recordings (2020): [Lab Video](https://youtu.be/6wtiTn45Lu4)
 
 #### Assignments (MidSem Exam)
 
@@ -163,9 +146,6 @@ Networking, IP addressing, subnets, routing virtual private clouds
         2. NAT (Network Address Translation): [Video](https://youtu.be/fpHifzYGosA)
         3. ELB (Elastic Load Balancing): [Video](https://youtu.be/h5rhWRbuI74)
 
-#### Lab 5
-- Instructions: [Lab5Networking.md](https://github.com/hadeneh/cits5503/blob/master/Labs/Lab5Networking.md)
-    - Previous Recordings (2020): [Lab Video](https://youtu.be/lDp1l0vC0dI)
 
 #### Assignments (MidSem Exam)
 
@@ -195,10 +175,6 @@ Web architectures using python as a model with RDBMS
             3. SQS Video: [Video](https://youtu.be/jVF3JAUMaw0)
         - 2020: [Video](https://youtu.be/z_lR-4w2K88)
 
-#### Lab 6
-- Instructions: [Lab6WebApplication.md](https://github.com/hadeneh/cits5503/blob/master/Labs/Lab6WebApplication.md)
-    - Previous Recordings (2020): [Lab Video](https://youtu.be/vX8AC5s-2bY)
-
 #### Assignments (MidSem Exam)
 
 - Week 8: [2 Questions](https://github.com/uwacsp/cits5503/blob/master/assignments.md#week-8)
@@ -219,10 +195,6 @@ Software controlled deployment of services and software using Chef
             - Code Build Demo: [Video](https://youtu.be/doW1ZjnMNfQ)
         - 2020 (2019): [Video](https://youtu.be/P6JUMUGNooU)
 
-#### Lab 7
-- Instructions: [Lab7DevOps.md](https://github.com/hadeneh/cits5503/blob/master/Labs/Lab7DevOps.md)
-    - Previous Recordings (2020): [Lab Video](https://youtu.be/NNLp5x9Iyes)
-
 #### Assignments (MidSem Exam)
 
 - Week 9: [2 Questions](https://github.com/uwacsp/cits5503/blob/master/assignments.md#week-9)
@@ -241,11 +213,6 @@ Machine learning using classification and categorisation services
             - AI: [Video](https://youtu.be/tHyPwdB5ghI)
             - AI + ML Demo: [Video](https://youtu.be/Q5YHt_FieeQ)
         - 2020 (2019): [Video](https://youtu.be/jaBzdpftdl0)
-
-#### Lab 8
-
-- Instructions: [Lab8AI.md](https://github.com/hadeneh/cits5503/blob/master/Labs/Lab8AI.md)
-    - Previous Recordings (2020): [Lab Video](https://youtu.be/bnhfkWhPw8M)
 
 #### Assignments (MidSem Exam)
 
@@ -268,10 +235,6 @@ More AI services including text analysis, image analysis, chatbots and data anal
             - [SageMaker Demo Video](https://youtu.be/jHHySmY2KUc)
         - 2020 (2019): [Video](https://youtu.be/nLD7_WMC2xc)
 
-#### Lab 9
-- Instructions (Week 11): [Lab 9 More AI: Text analysis, image analysis, chatbots](https://github.com/dglance/cits5503/blob/master/Labs/Lab9MoreAI.md)
-    - Previous Recordings (2020): [Lab Video](https://youtu.be/wuLczWEBKQI)
-
 ---
 
 ### Week 12
@@ -293,25 +256,36 @@ For **Lectures** [cilck here](#lectures).
 This semester all labs will be assessed as "Lab notes". You should follow all steps in each lab and include your own comments. In addition, include screenshots showing the output for every commandline instruction that you execute in the terminal and any other relevant screenshots that demonstrate you followed the steps from the corresponding lab. Please also include any bash or python script that you create and the corresponding output you get when executing it.
 Please submit a single PDF file. The formatting is up to you but a well organised structure of your notes is appreciated.
 
-Week 2:[Lab1 Intro and setup of environment](https://github.com/dglance/cits5503/blob/master/Labs/Lab1IntroSetup.md)
-
-Week 3:[Lab2 EC2 and docker](https://github.com/dglance/cits5503/blob/master/Labs/Lab2EC2Docker.md)
-
-Week 4:[Lab3 S3 and DynamoDB Creating CloudStorage application](https://github.com/dglance/cits5503/blob/master/Labs/Lab3S3DynamoDB.md)
-
-Week 5:[Lab4 IAM, KMS and AES encryption](https://github.com/dglance/cits5503/blob/master/Labs/Lab4KMSEncryption.md)
-
-Week 6:[Lab 5 Networks and VPC](https://github.com/dglance/cits5503/blob/master/Labs/Lab5Networking.md)
-
-Week 7: No labs this week to make up for the assignment
-
-Week 8:[Lab 6 Web applications, Django and ELB](https://github.com/dglance/cits5503/blob/master/Labs/Lab6WebApplication.md)
-
-Week 9:[Lab 7 DevOps](https://github.com/dglance/cits5503/blob/master/Labs/Lab7DevOps.md)
-
-Week 10:[Lab 8 Machine learning using classification and categorisation services](https://github.com/dglance/cits5503/blob/master/Labs/Lab8AI.md)
-
-Week 11:[Lab 9 More AI: Text analysis, image analysis, chatbots](https://github.com/dglance/cits5503/blob/master/Labs/Lab9MoreAI.md)
+- No Labs for Week 1.
+- Week 2 (Lab 1)
+    - Instructions: [Lab1 Intro and setup of environment](https://github.com/dglance/cits5503/blob/master/Labs/Lab1IntroSetup.md)
+    - (Broken Link) [Lab 1 Online Session 2021](https://youtu.be/PDACdigZaz4)
+- Week 3 (Lab 2)
+    - Instructions: [Lab2 EC2 and docker](https://github.com/dglance/cits5503/blob/master/Labs/Lab2EC2Docker.md)
+- Week 4 (Lab 3)
+    - Instructions: [Lab3 S3 and DynamoDB Creating CloudStorage application](https://github.com/dglance/cits5503/blob/master/Labs/Lab3S3DynamoDB.md)
+- Week 5 (Lab 4)
+    - Instructions: [Lab4 IAM, KMS and AES encryption](https://github.com/dglance/cits5503/blob/master/Labs/Lab4KMSEncryption.md)
+    - Previous Recordings (2020): [Lab Video](https://youtu.be/6wtiTn45Lu4)
+- Week 6 (Lab 5)
+    - Instructions: [Lab 5 Networks and VPC](https://github.com/dglance/cits5503/blob/master/Labs/Lab5Networking.md)
+    - Previous Recordings (2020): [Lab Video](https://youtu.be/lDp1l0vC0dI)
+- Week 7: No labs this week to make up for the assignment
+- Week 8 (Lab 6)
+    - Instructions: [Lab 6 Web applications, Django and ELB](https://github.com/dglance/cits5503/blob/master/Labs/Lab6WebApplication.md)
+    - Previous Recordings (2020): [Lab Video](https://youtu.be/vX8AC5s-2bY)
+- Week 9 (Lab 7)
+    - Instructions: [Lab 7 DevOps](https://github.com/dglance/cits5503/blob/master/Labs/Lab7DevOps.md)
+    - Previous Recordings (2020): [Lab Video](https://youtu.be/NNLp5x9Iyes)
+- Week 10 (Lab 8)
+    - Instructions: [Lab 8 Machine learning using classification and categorisation services](https://github.com/dglance/cits5503/blob/master/Labs/Lab8AI.md)
+    - Previous Recordings (2020): [Lab Video](https://youtu.be/bnhfkWhPw8M)
+- Week 11 (Lab 9)
+    - Instructions: [Lab 9 More AI: Text analysis, image analysis, chatbots](https://github.com/dglance/cits5503/blob/master/Labs/Lab9MoreAI.md)
+    - Previous Recordings (2020): [Lab Video](https://youtu.be/wuLczWEBKQI)
+- More Labs: 
+    - dafsf
+    - asfdsf
 
 ## Assessment
 
