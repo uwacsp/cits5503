@@ -146,11 +146,11 @@ AWS security and identity management
 - Instructions: [Lab4KMSEncryption.md](https://github.com/hadeneh/cits5503/blob/master/Labs/Lab4KMSEncryption.md)
     - Previous Recordings (2020): [Lab Video](https://youtu.be/6wtiTn45Lu4)
 
+#### Assignments (MidSem Exam)
 
+- Week 5: [3 Questions](https://github.com/uwacsp/cits5503/blob/master/assignments.md#week-5)
 
-[Assignments for week 5 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
-
-
+---
 
 Week 6: Networking, IP addressing, subnets, routing virtual private clouds ([Networking](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503Networking.pptx), [Networking Video](https://youtu.be/FeIzLjkRi28), [NAT](https://youtu.be/fpHifzYGosA), [ELB](https://youtu.be/h5rhWRbuI74))
 
