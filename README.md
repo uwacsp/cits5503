@@ -254,11 +254,26 @@ Machine learning using classification and categorisation services
 
 ---
 
-Week 11: More AI services including text analysis, image analysis, chatbots and data analysis using Jupyter and SageMaker ([MoreAI](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503MoreAI.pptx) (pptx), [More AI Intro Video](https://youtu.be/Uz25dAUf-TU), [Chatbots Video](https://youtu.be/rb9knoeXIss), [SageMaker Video](https://youtu.be/JmlFz-rLBAc), [SageMaker Demo Video](https://youtu.be/jHHySmY2KUc))
+### Week 11
 
-[2019 Video Capture Lecture](https://youtu.be/nLD7_WMC2xc)
+More AI services including text analysis, image analysis, chatbots and data analysis using Jupyter and SageMaker
 
-[Lab Recording Week 11](https://youtu.be/wuLczWEBKQI)
+#### Content
+
+- [MoreAI](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503MoreAI.pptx) (pptx)
+    - Previous Lecture Recordings:
+        - 2018:
+            - [More AI Intro Video](https://youtu.be/Uz25dAUf-TU)
+            - [Chatbots Video](https://youtu.be/rb9knoeXIss)
+            - [SageMaker Video](https://youtu.be/JmlFz-rLBAc)
+            - [SageMaker Demo Video](https://youtu.be/jHHySmY2KUc)
+        - 2020 (2019): [Video](https://youtu.be/nLD7_WMC2xc)
+
+#### Lab 9
+- Instructions (Week 11): [Lab 9 More AI: Text analysis, image analysis, chatbots](https://github.com/dglance/cits5503/blob/master/Labs/Lab9MoreAI.md)
+    - Previous Recordings (2020): [Lab Video](https://youtu.be/wuLczWEBKQI)
+
+---
 
 Week 12: Mobile application integration and services and IoT integration using cloud services ([MobileIntegration](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503EMobile.pptx) (pptx), [Mobile Video](https://youtu.be/NAqVZrkHD-s), [Mobile Demo, Video](https://youtu.be/fUP935lHwmc))
 
@@ -285,7 +300,6 @@ Week 9:[Lab 7 DevOps](https://github.com/dglance/cits5503/blob/master/Labs/Lab7D
 
 Week 10:[Lab 8 Machine learning using classification and categorisation services](https://github.com/dglance/cits5503/blob/master/Labs/Lab8AI.md)
 
-Week 11:[Lab 9 More AI: Text analysis, image analysis, chatbots](https://github.com/dglance/cits5503/blob/master/Labs/Lab9MoreAI.md)
 
 
 ## Assessment
