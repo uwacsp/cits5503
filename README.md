@@ -230,11 +230,21 @@ Software controlled deployment of services and software using Chef
 
 ---
 
-Week 10: Machine learning using classification and categorisation services ([AI](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503AI.pptx) (pptx), [AI Video](https://youtu.be/tHyPwdB5ghI), [ML Demo Video](https://youtu.be/Q5YHt_FieeQ))
+### Week 10
+
+Machine learning using classification and categorisation services
+
+#### Content
+
+- [AI](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503AI.pptx) (pptx)
+    - Previous Lecture Recordings:
+        -  2018:
+            - AI: [Video](https://youtu.be/tHyPwdB5ghI)
+            - AI + ML Demo: [Video](https://youtu.be/Q5YHt_FieeQ)
+        - 2020 (2019): [Video](https://youtu.be/jaBzdpftdl0)
 
 [Final - Assignments for week 10 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
 
-[2019 Video Capture Lecture](https://youtu.be/jaBzdpftdl0)
 
 [Lab Recording Week 10](https://youtu.be/bnhfkWhPw8M)
 
