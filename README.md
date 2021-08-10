@@ -50,6 +50,7 @@ Week 2: Cloud Computing and AWS: Introduction to AWS platform and services, awsc
 Week 3: Computer virtualisation. Background and different approaches. Containers and Docker ([Virtualisation](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503Virtualisation.pptx), [Video](https://youtu.be/fyo9WmKVHTY))
 
 [Assignments for week 3 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
+[Lecture Video 2021 - Week 3](https://youtu.be/OjSySgDgVck)
 
 [2019 Video Capture Lecture](https://youtu.be/uCcyk30FZT4)
 
