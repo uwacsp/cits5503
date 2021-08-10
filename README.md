@@ -173,11 +173,11 @@ Networking, IP addressing, subnets, routing virtual private clouds
 
 ---
 
-## Week 7: Essay Assignment Week
+### Week 7: Essay Assignment Week
 
 There will be no scheduled labs or content for lectures and the time can be used for the assignment
 
-[Essay Assignment Due Sunday 4th October 23:59 AWST](https://github.com/uwacsp/cits5503/blob/master/essayassignment.md)
+- [Essay Assignment](https://github.com/uwacsp/cits5503/blob/master/essayassignment.md) due **Sunday 4th October 23:59 AWST**
 
 [Lab Recording Week 7/8](https://youtu.be/vX8AC5s-2bY)
 
