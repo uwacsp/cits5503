@@ -325,15 +325,3 @@ Please submit a single PDF file. The formatting is up to you but a well organise
 
 - Instructions: [Lab 9 More AI: Text analysis, image analysis, chatbots](https://github.com/dglance/cits5503/blob/master/Labs/Lab9MoreAI.md)
 - Previous Recordings (2020): [Lab Video](https://youtu.be/wuLczWEBKQI)
-
----
-
-### More Labs
-
-- More Labs: 
-    - dafsf
-    - asfdsf
-
-## Assessment
-
-20% Labs, 30% Midterm exam, 50% Final Exam
