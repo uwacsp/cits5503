@@ -159,9 +159,10 @@ Networking, IP addressing, subnets, routing virtual private clouds
 #### Content
 
 - [Networking](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503Networking.pptx) (pptx)
-    1. Networking Fundamentals (2018): [Video](https://youtu.be/FeIzLjkRi28)
-    2. NAT (Network Address Translation) (2018): [Video](https://youtu.be/fpHifzYGosA)
-    3. ELB (Elastic Load Balancing) (2018): [Video](https://youtu.be/h5rhWRbuI74)
+    - Previous Lecture Recording (2018):
+        1. Networking Fundamentals: [Video](https://youtu.be/FeIzLjkRi28)
+        2. NAT (Network Address Translation): [Video](https://youtu.be/fpHifzYGosA)
+        3. ELB (Elastic Load Balancing): [Video](https://youtu.be/h5rhWRbuI74)
 
 #### Lab 5
 - Instructions: [Lab5Networking.md](https://github.com/hadeneh/cits5503/blob/master/Labs/Lab5Networking.md)
@@ -179,9 +180,23 @@ There will be no scheduled labs or content for lectures and the time can be used
 
 - [Essay Assignment](https://github.com/uwacsp/cits5503/blob/master/essayassignment.md) due **Sunday 4th October 23:59 AWST**
 
+---
+
+### Week 8
+
+Web architectures using python as a model with RDBMS
+
+#### Content
+
+- [WebArchitecture](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503WebArchitecture.pptx) (pptx)
+    - Previous Lecture Recording (2018):
+        1. Web Architecture: [Video](https://youtu.be/hl9QZS-ovn4)
+        2. Django Demo: [Video](https://youtu.be/wQZYSURos-s)
+        3. SQS Video: [Video](https://youtu.be/jVF3JAUMaw0)
+
+
 [Lab Recording Week 7/8](https://youtu.be/vX8AC5s-2bY)
 
-Week 8: Web architectures using python as a model with RDBMS ([WebArchitecture](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503WebArchitecture.pptx) (pptx)[Web Architecture Video](https://youtu.be/hl9QZS-ovn4), [Django Demo](https://youtu.be/wQZYSURos-s), [SQS Video](https://youtu.be/jVF3JAUMaw0)
 
 [Assignments for week 8 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
 
