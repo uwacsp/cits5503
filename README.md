@@ -128,12 +128,21 @@ AWS storage EBS, S3, DynamoDB
 
 - Week 4: [4 Questions](https://github.com/uwacsp/cits5503/blob/master/assignments.md#week-4)
 
+---
 
-Week 5: AWS security and identity management ([IAM](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503LectureIAM.pptx), [Video](https://youtu.be/3prrCQxlJoQ))
+### Week 5
+
+AWS security and identity management
+
+#### Content
+
+- [IAM (Identity Access Management)](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503LectureIAM.pptx)
+    - Previous Lecture Recording: 
+        - 2019: [Video](https://youtu.be/3prrCQxlJoQ)
+        - 2020: [Video](https://youtu.be/kvpVZq56hB4)
 
 [Assignments for week 5 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
 
-[2019 Video Capture Lecture](https://youtu.be/kvpVZq56hB4)
 
 [Lab Recording Week 5](https://youtu.be/6wtiTn45Lu4)
 
