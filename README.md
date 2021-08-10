@@ -193,7 +193,7 @@ Software controlled deployment of services and software using Chef
             - OpsWorks Chef: [Video](https://youtu.be/ZyTQc2xDRv4)
             - DevOps Intro Fabric: [Video](https://youtu.be/iuOBJr2Rdkg)
             - Code Build Demo: [Video](https://youtu.be/doW1ZjnMNfQ)
-        - 2020 (2019): [Video](https://youtu.be/P6JUMUGNooU)
+        - 2020: [Video](https://youtu.be/P6JUMUGNooU)
 
 #### Assignments (MidSem Exam)
 
@@ -212,7 +212,7 @@ Machine learning using classification and categorisation services
         -  2018:
             - AI: [Video](https://youtu.be/tHyPwdB5ghI)
             - AI + ML Demo: [Video](https://youtu.be/Q5YHt_FieeQ)
-        - 2020 (2019): [Video](https://youtu.be/jaBzdpftdl0)
+        - 2020: [Video](https://youtu.be/jaBzdpftdl0)
 
 #### Assignments (MidSem Exam)
 
@@ -233,7 +233,7 @@ More AI services including text analysis, image analysis, chatbots and data anal
             - [Chatbots Video](https://youtu.be/rb9knoeXIss)
             - [SageMaker Video](https://youtu.be/JmlFz-rLBAc)
             - [SageMaker Demo Video](https://youtu.be/jHHySmY2KUc)
-        - 2020 (2019): [Video](https://youtu.be/nLD7_WMC2xc)
+        - 2020: [Video](https://youtu.be/nLD7_WMC2xc)
 
 ---
 
