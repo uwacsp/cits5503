@@ -206,11 +206,23 @@ Web architectures using python as a model with RDBMS
 
 ---
 
-Week 9: Software controlled deployment of services and software using Chef ([DevOps](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503DevOps.pptx) (pptx), [OpsWorks Chef Video](https://youtu.be/ZyTQc2xDRv4), [DevOps Intro Fabric](https://youtu.be/iuOBJr2Rdkg), [Code Build Video](https://youtu.be/doW1ZjnMNfQ))
+### Week 9
+
+Software controlled deployment of services and software using Chef
+
+#### Content
+
+- [DevOps](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503DevOps.pptx) (pptx)
+    - Previous Lecture Recordings:
+        - 2018:
+            - OpsWorks Chef: [Video](https://youtu.be/ZyTQc2xDRv4)
+            - DevOps Intro Fabric: [Video](https://youtu.be/iuOBJr2Rdkg)
+            - Code Build Demo: [Video](https://youtu.be/doW1ZjnMNfQ)
+        - 2020 (2019): [Video](https://youtu.be/P6JUMUGNooU)
+
 
 [Assignments for week 9 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
 
-[2019 Video Capture Lecture](https://youtu.be/P6JUMUGNooU)
 
 [Lab Recording Week 9](https://youtu.be/NNLp5x9Iyes)
 
