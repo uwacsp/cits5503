@@ -224,10 +224,11 @@ Software controlled deployment of services and software using Chef
 - Instructions: [Lab7DevOps.md](https://github.com/hadeneh/cits5503/blob/master/Labs/Lab7DevOps.md)
     - Previous Recordings (2020): [Lab Video](https://youtu.be/NNLp5x9Iyes)
 
+#### Assignments (MidSem Exam)
 
-[Assignments for week 9 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
+- Week 9: [2 Questions](https://github.com/uwacsp/cits5503/blob/master/assignments.md#week-9)
 
-
+---
 
 Week 10: Machine learning using classification and categorisation services ([AI](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503AI.pptx) (pptx), [AI Video](https://youtu.be/tHyPwdB5ghI), [ML Demo Video](https://youtu.be/Q5YHt_FieeQ))
 
