@@ -34,6 +34,8 @@ The course consists of 12 weeks of lectures and 10 weeks of practical lab classe
 
 ## Lectures
 
+For **Labs** [cilck here](#labs).
+
 ### Introduction to Cloud Computing - CITS5503
 
 
@@ -82,9 +84,6 @@ Cloud Computing and AWS: Introduction to AWS platform and services, awscli comma
 - Week 2: [2 Questions](https://github.com/uwacsp/cits5503/blob/master/assignments.md#week-2)
 
 ---
-
-
-
 
 ### Week 3
 
@@ -275,9 +274,21 @@ More AI services including text analysis, image analysis, chatbots and data anal
 
 ---
 
-Week 12: Mobile application integration and services and IoT integration using cloud services ([MobileIntegration](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503EMobile.pptx) (pptx), [Mobile Video](https://youtu.be/NAqVZrkHD-s), [Mobile Demo, Video](https://youtu.be/fUP935lHwmc))
+### Week 12
+
+Mobile application integration and services and IoT integration using cloud services
+
+#### Content
+
+- [MobileIntegration](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503EMobile.pptx) (pptx)
+    - Previous Lecture Recording (2018):
+        - Mobile: [Video](https://youtu.be/NAqVZrkHD-s)
+        - Mobile Demo: [Video](https://youtu.be/fUP935lHwmc)
+
+---
 
 ## Labs
+For **Lectures** [cilck here](#lectures).
 
 This semester all labs will be assessed as "Lab notes". You should follow all steps in each lab and include your own comments. In addition, include screenshots showing the output for every commandline instruction that you execute in the terminal and any other relevant screenshots that demonstrate you followed the steps from the corresponding lab. Please also include any bash or python script that you create and the corresponding output you get when executing it.
 Please submit a single PDF file. The formatting is up to you but a well organised structure of your notes is appreciated.
@@ -300,7 +311,7 @@ Week 9:[Lab 7 DevOps](https://github.com/dglance/cits5503/blob/master/Labs/Lab7D
 
 Week 10:[Lab 8 Machine learning using classification and categorisation services](https://github.com/dglance/cits5503/blob/master/Labs/Lab8AI.md)
 
-
+Week 11:[Lab 9 More AI: Text analysis, image analysis, chatbots](https://github.com/dglance/cits5503/blob/master/Labs/Lab9MoreAI.md)
 
 ## Assessment
 
