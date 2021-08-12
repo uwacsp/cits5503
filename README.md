@@ -270,7 +270,6 @@ Please submit a single PDF file. The formatting is up to you but a well organise
 ### Week 2 (Lab 1)
 
 - Instructions: [Lab1 Intro and setup of environment](https://github.com/dglance/cits5503/blob/master/Labs/Lab1IntroSetup.md)
-- (Broken Link) [Lab 1 Online Session 2021](https://youtu.be/PDACdigZaz4)
 
 ---
 
