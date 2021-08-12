@@ -85,7 +85,12 @@ Cloud Computing and AWS: Introduction to AWS platform and services, awscli comma
 
 Computer virtualisation. Background and different approaches. Containers and Docker
 
+
 #### Content
+
+- [Assignments for week 3 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
+  - [Lecture Video 2021 - Week 3](https://youtu.be/OjSySgDgVck)
+
 
 - [Virtualisation](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503Virtualisation.pptx) (pptx)
     - Previous Lecture Recordings:
