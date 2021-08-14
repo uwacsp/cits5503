@@ -95,7 +95,7 @@ Computer virtualisation. Background and different approaches. Containers and Doc
     - Previous Lecture Recordings:
         - 2020: [Video](https://youtu.be/uCcyk30FZT4)
         - 2019: [Video](https://youtu.be/fyo9WmKVHTY)
-- [Lab 2 - EC2, Boto3, Docker 2021](https://youtu.be/y7Yrn2KvYfU)
+- [Lab 2 Recording 2021- EC2, Boto3, Docker](https://youtu.be/y7Yrn2KvYfU)
 
 #### Assignments (MidSem Exam)
 
