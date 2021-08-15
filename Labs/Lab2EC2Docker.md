@@ -109,7 +109,7 @@ docker --version
 
 Create a directory called html
 
-Edit a file index.html inside the html directoyr and add the following content
+Edit a file index.html inside the html directory and add the following content
 
 ```
   <html>
