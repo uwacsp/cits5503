@@ -95,9 +95,7 @@ The attributes for the table will be:
 For every file that is stored in S3, get the information to put in the DynamoDB item and write it to the table. You will have to find functions in Python to get details like time lastUpdated, owner and permissions. All of this information can be stored as strings.
 
 ### [Step 5] Optional
-
 Add the functionality to apply changes to permissions and ownership when the directory and files are restored.
-
 Check timestamps on files and only upload if the file has been updated.
 
 Lab Assessment:
