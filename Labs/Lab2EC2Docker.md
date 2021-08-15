@@ -109,7 +109,7 @@ docker --version
 
 Create a directory called html
 
-Edit a file index.html and add the following content
+Edit a file index.html inside the html directory and add the following content
 
 ```
   <html>
@@ -120,7 +120,7 @@ Edit a file index.html and add the following content
   </html>
 ```
 
-### [4] Create a file called “Dockerfile” in the directory above with the following content:
+### [4] Create a file called “Dockerfile” outside the html directory with the following content:
 
 ```
 FROM httpd:2.4
