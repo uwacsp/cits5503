@@ -115,6 +115,7 @@ AWS storage EBS, S3, DynamoDB
         - S3 (2019): [Video](https://youtu.be/ob6x5ZotyWk)
         - DynamoDB (2019): [Video](https://youtu.be/mhNU38b96Oc "Dynamo DB")
         - 2020: [Video](https://youtu.be/9Ff02Kmt5mw)
+    - [Lab 3 Recording - S3 and DynamoDB](https://youtu.be/0Wv_e42hZrA)
 
 #### Assignments (MidSem Exam)
 
@@ -158,11 +159,9 @@ Networking, IP addressing, subnets, routing virtual private clouds
 
 ---
 
-### Week 7: Essay Assignment Week
+### Week 7: Study Time Week
 
-There will be no scheduled labs or content for lectures and the time can be used for the assignment
-
-- [Essay Assignment](https://github.com/uwacsp/cits5503/blob/master/essayassignment.md) due **Sunday 4th October 23:59 AWST**
+There will be no scheduled labs or content for lectures and the time can be used for the midterm exam.
 
 ---
 
