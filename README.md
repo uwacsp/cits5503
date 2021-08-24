@@ -160,7 +160,7 @@ Networking, IP addressing, subnets, routing virtual private clouds
 
 ### Week 7: Study Time Week
 
-There will be no scheduled labs or content for lectures and the time can be used for the midterm exam.
+There will be no scheduled labs or content for lectures and the time can be used for completing the pending labs.
 
 ---
 
