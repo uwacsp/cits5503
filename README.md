@@ -89,8 +89,6 @@ Computer virtualisation. Background and different approaches. Containers and Doc
 
 - [Assignments for week 3 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
   - [Lecture Video 2021 - Week 3](https://youtu.be/OjSySgDgVck)
-
-
 - [Virtualisation](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503Virtualisation.pptx) (pptx)
     - Previous Lecture Recordings:
         - 2020: [Video](https://youtu.be/uCcyk30FZT4)
@@ -128,11 +126,12 @@ AWS storage EBS, S3, DynamoDB
 AWS security and identity management
 
 #### Content
-
+- [Lecture Video 2021 - Week 5](https://youtu.be/OjSySgDgVck)
 - [IAM (Identity Access Management)](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503LectureIAM.pptx) (pptx)
     - Previous Lecture Recording: 
         - 2019: [Video](https://youtu.be/3prrCQxlJoQ)
         - 2020: [Video](https://youtu.be/kvpVZq56hB4)
+    
 
 #### Assignments (MidSem Exam)
 
