@@ -67,9 +67,8 @@ Motivation for cloud computing, introduction to cloud computing
 Cloud Computing and AWS: Introduction to AWS platform and services, awscli command line and python boto programming interfaces 
 
 #### Content
-
+- [Lecture Recording 2021 Week 2](https://youtu.be/-pYhN04yuhg)
 - [AWSIntro](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503AWSIntro.pptx) (pptx) 
-    - Lecture Recording 2021 (Teams - same on LMS): [Lecture Video 2021 - Week 2](https://youtu.be/-pYhN04yuhg)
     - Previous Lecture Recording (2019): [Video](https://youtu.be/_UxpJeOB-bM) 
     - AWS Guest Lecturer (2020): [Video](https://youtu.be/Mupg0-YEO_E)
 - [Boto](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503LectureBoto.pptx) (pptx) 
@@ -86,9 +85,8 @@ Cloud Computing and AWS: Introduction to AWS platform and services, awscli comma
 Computer virtualisation. Background and different approaches. Containers and Docker
 
 #### Content
-
+- [Lecture Video 2021 - Week 3](https://youtu.be/OjSySgDgVck)
 - [Assignments for week 3 Available](https://github.com/uwacsp/cits5503/blob/master/assignments.md)
-  - [Lecture Video 2021 - Week 3](https://youtu.be/OjSySgDgVck)
 - [Virtualisation](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503Virtualisation.pptx) (pptx)
     - Previous Lecture Recordings:
         - 2020: [Video](https://youtu.be/uCcyk30FZT4)
@@ -126,7 +124,7 @@ AWS storage EBS, S3, DynamoDB
 AWS security and identity management
 
 #### Content
-- [Lecture Video 2021 - Week 5](https://youtu.be/OjSySgDgVck)
+- [Lecture Video 2021 - Week 5](https://youtu.be/-pYhN04yuhg)
 - [IAM (Identity Access Management)](https://github.com/uwacsp/cits5503/raw/master/Lectures/CITS5503LectureIAM.pptx) (pptx)
     - Previous Lecture Recording: 
         - 2019: [Video](https://youtu.be/3prrCQxlJoQ)
