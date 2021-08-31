@@ -129,6 +129,7 @@ AWS security and identity management
     - Previous Lecture Recording: 
         - 2019: [Video](https://youtu.be/3prrCQxlJoQ)
         - 2020: [Video](https://youtu.be/kvpVZq56hB4)
+    - [Lab 4 Recording - Policies and KMS](https://youtu.be/k_xC4nx98es)
     
 
 #### Assignments (MidSem Exam)
