@@ -149,6 +149,7 @@ Networking, IP addressing, subnets, routing virtual private clouds
         1. Networking Fundamentals: [Video](https://youtu.be/FeIzLjkRi28)
         2. NAT (Network Address Translation): [Video](https://youtu.be/fpHifzYGosA)
         3. ELB (Elastic Load Balancing): [Video](https://youtu.be/h5rhWRbuI74)
+    - [Lab 5 Recording - Load balancers](https://youtu.be/bCy5bUDP1wI)
 
 
 #### Assignments (MidSem Exam)
