@@ -163,11 +163,9 @@ You can now access the site using the url http://\<load balancer dns name>/polls
 
 ### [Extension] Web interface for CloudStorage application
 
-You will need to create a table and update the data in it as you did
-in the DynamoDB lab. This time however, you will use the AWS DynamoDB
-instance.
+You will need to create a table and update the data in it as you did in the DynamoDB lab. You will need to create a local version of DynamoDB as in the previous lab as well as copy across your AWS credentials and previous scripts (hint. check out the scp command here).
 
-In views.py, add boto3 code to scan the DynamoDB table you created for your CloudStorage command line application. Display the results in the calling page.
+In views.py, add boto3 (remember to pip install) code to scan the DynamoDB table you created for your CloudStorage command line application. Display the results in the calling page.
 
 In Django, you can use templates to properly format a web page using supplied variables – you can do that to make the table look nice. To use a template, you need to create a templates directory under polls and then add to the TEMPLATES section of lab/settings.py
 
