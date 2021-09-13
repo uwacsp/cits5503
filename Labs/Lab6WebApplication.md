@@ -31,14 +31,21 @@ The aim of this lab is to write a program that will:
 
 [1] Create an EC2 micro instance using Ubuntu and SSH into it.
 
+```
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install python3-venv
+```
+It is easier now if you change the bash to operate as sudo
+
+```
+sudo bash
+```
+
 [2] Create a directory with a path /opt/wwc/mysites and cd into that.  Set up a virtual environment as you did in the first lab:
 
 ```
-sudo apt-get update
-sudo apt-get install python3-venv
-
-'
-python3 -m venv virtualenv
+python3 -m venv venv
 ```
 
 Activate your virtual environment and then:
@@ -58,11 +65,7 @@ Stop and look at the files that have been created – the project files are to d
 
 [1] install nginx
 
-it is easier now if you change the bash to operate as sudo
-
 ```
-sudo bash
-
 apt install nginx
 ```
 
@@ -141,7 +144,7 @@ python3 manage.py runserver 8000
 
 and check that you get Hello, world. when you type the url http://\<ip address>/polls/
 
-NOTE remember to put the /polls/ on the end
+NOTE remember to put the /polls/ on the end and you may need to restart nginx if it didn't work earlier.
 
 ### [Step 4] Adding the load balancer
 
@@ -158,13 +161,11 @@ Once you have created the ELB, you should see the health check fetch the /polls/
 You can now access the site using the url http://\<load balancer dns name>/polls/
 
 
-### [Step 5] Web interface for CloudStorage application
+### [Extension] Web interface for CloudStorage application
 
-You will need to create a table and update the data in it as you did
-in the DynamoDB lab. This time however, you will use the AWS DynamoDB
-instance.
+You will need to create a table and update the data in it as you did in the DynamoDB lab. You will need to create a local version of DynamoDB as in the previous lab as well as copy across your AWS credentials and previous scripts (hint. check out the scp command here).
 
-In views.py, add boto3 code to scan the DynamoDB table you created for your CloudStorage command line application. Display the results in the calling page.
+In views.py, add boto3 (remember to pip install) code to scan the DynamoDB table you created for your CloudStorage command line application. Display the results in the calling page.
 
 In Django, you can use templates to properly format a web page using supplied variables – you can do that to make the table look nice. To use a template, you need to create a templates directory under polls and then add to the TEMPLATES section of lab/settings.py
 
@@ -215,7 +216,7 @@ def index(request):
 
     dynamodb = boto3.resource('dynamodb', region_name='ap-southeast-2',
                               aws_access_key_id='Your Access Key',
-                              aws_secret_access_key=’Your Secret’)
+                              aws_secret_access_key='Your Secret')
 
     table = dynamodb.Table("UserFiles")
 
