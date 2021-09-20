@@ -177,7 +177,7 @@ Web architectures using python as a model with RDBMS
             2. Django Demo: [Video](https://youtu.be/wQZYSURos-s)
             3. SQS Video: [Video](https://youtu.be/jVF3JAUMaw0)
         - 2020: [Video](https://youtu.be/z_lR-4w2K88)
-        - 2021: [Video](https://youtu.be/IOzBJ5odM-w)
+        - 2021: [Video](https://youtu.be/IOzBJ5odM-w) (Apologies for the audio issues in the first 20 minutes)
     - [Lab 6](https://youtu.be/yOPHWOTlny8)
 
 #### Assignments (MidSem Exam)
