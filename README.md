@@ -320,8 +320,8 @@ Please submit a single PDF file. The formatting is up to you but a well organise
 ---
 
 ### Week 10 (Lab 8)
-
-- Instructions: [Lab 8 Machine learning using classification and categorisation services](https://github.com/dglance/cits5503/blob/master/Labs/Lab8AI.md)
+- New Lab 8 (2021 version - SageMaker)[Lab Instructions](https://github.com/dglance/cits5503/blob/master/Labs/Lab8_2021.md)
+- Lab 8 (Old - AWS ML Deprecated): [Lab 8 Machine learning using classification and categorisation services](https://github.com/dglance/cits5503/blob/master/Labs/Lab8AI.md)
 - Previous Recordings (2020): [Lab Video](https://youtu.be/bnhfkWhPw8M)
 
 ---
