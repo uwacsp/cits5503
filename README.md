@@ -219,6 +219,7 @@ Machine learning using classification and categorisation services
             - AI: [Video](https://youtu.be/tHyPwdB5ghI)
             - AI + ML Demo: [Video](https://youtu.be/Q5YHt_FieeQ)
         - 2020: [Video](https://youtu.be/jaBzdpftdl0)
+    - [Lab 8](https://youtu.be/s_VbaubJ0pU)
 
 #### Assignments (MidSem Exam)
 
