@@ -8,11 +8,11 @@ Version: 1.0 Date: 4/10/2021 Author: Camilo Pestana
 2. Use boto3 to get hands-on experience on using useful AI services in AWS for Natural Language Processing (NLP)/ Natural Language Understanding (NLU) and Computer Vision.
 
 ## Technologies Covered
-Ubuntu
-AWS Comprehend
-AWS Rekognition
-boto3
-Python
+- Ubuntu
+- AWS Comprehend
+- AWS Rekognition
+- boto3
+- Python
 
 ## Background
 
