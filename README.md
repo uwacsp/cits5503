@@ -242,6 +242,8 @@ More AI services including text analysis, image analysis, chatbots and data anal
             - [SageMaker Demo Video](https://youtu.be/jHHySmY2KUc)
         - 2020: [Video](https://youtu.be/nLD7_WMC2xc)
 
+[Lecture AI 2021](https://youtu.be/6o6Fet1xz8Y)
+
 ---
 
 ### Week 12
