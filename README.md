@@ -258,6 +258,8 @@ Mobile application integration and services and IoT integration using cloud serv
         - Mobile: [Video](https://youtu.be/NAqVZrkHD-s)
         - Mobile Demo: [Video](https://youtu.be/fUP935lHwmc)
 
+[Lecture Final Exam](https://youtu.be/odfaSTeesY4)
+
 ---
 
 ## Labs
